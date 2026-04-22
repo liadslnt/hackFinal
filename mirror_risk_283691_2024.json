@@ -1,0 +1,2353 @@
+[
+  {
+    "country": "Netherlands",
+    "reporter_code": "NLD",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 74805610.0,
+    "mirror_imports_usd": 5366940.0,
+    "gap_usd": 69438670.0,
+    "reported_exports_kg": 5687980.0,
+    "mirror_imports_kg": 561258.0,
+    "gap_kg": 5126722.0,
+    "gap_pct": 90.13,
+    "direction": "mirror_below_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 90.1% below reported exports",
+      "gap = 5,126,722 kg, threshold >= 2,000,000 kg and >= 30%"
+    ],
+    "rule_summary": "reported exports = 5,687,980 kg, mirror imports = 561,258 kg, gap = 5,126,722 kg (90.13%)",
+    "top_export_partners": [
+      {
+        "country": "United Kingdom",
+        "value_usd": 30420100.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 28930110.0
+      },
+      {
+        "country": "France",
+        "value_usd": 5571070.0
+      },
+      {
+        "country": "India",
+        "value_usd": 2527570.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 1675040.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Italy",
+        "value_usd": 2004460.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 976910.0
+      },
+      {
+        "country": "France",
+        "value_usd": 748610.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 507250.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 451570.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/NLD/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/NLD/product/283691"
+  },
+  {
+    "country": "Bolivia",
+    "reporter_code": "BOL",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 15612510.0,
+    "mirror_imports_usd": 4326750.0,
+    "gap_usd": 11285760.0,
+    "reported_exports_kg": 1832150.0,
+    "mirror_imports_kg": 482173.0,
+    "gap_kg": 1349977.0,
+    "gap_pct": 73.68,
+    "direction": "mirror_below_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 73.7% below reported exports",
+      "gap = 1,349,977 kg, threshold >= 1,000,000 kg and >= 50%"
+    ],
+    "rule_summary": "reported exports = 1,832,150 kg, mirror imports = 482,173 kg, gap = 1,349,977 kg (73.68%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 12838930.0
+      },
+      {
+        "country": "Latvia",
+        "value_usd": 2030000.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 564150.0
+      },
+      {
+        "country": "Turkey",
+        "value_usd": 160000.0
+      },
+      {
+        "country": "Brazil",
+        "value_usd": 16610.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "China",
+        "value_usd": 3465560.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 621180.0
+      },
+      {
+        "country": "France",
+        "value_usd": 220310.0
+      },
+      {
+        "country": "Brazil",
+        "value_usd": 18250.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 1450.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/BOL/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BOL/product/283691"
+  },
+  {
+    "country": "Argentina",
+    "reporter_code": "ARG",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 406031370.0,
+    "mirror_imports_usd": 840746620.0,
+    "gap_usd": 434715250.0,
+    "reported_exports_kg": 47609100.0,
+    "mirror_imports_kg": 64840499.0,
+    "gap_kg": 17231399.0,
+    "gap_pct": 36.19,
+    "direction": "mirror_above_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 36.2% above reported exports",
+      "gap = 17,231,399 kg, threshold >= 2,000,000 kg and >= 30%"
+    ],
+    "rule_summary": "reported exports = 47,609,100 kg, mirror imports = 64,840,499 kg, gap = 17,231,399 kg (36.19%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 406031370.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "China",
+        "value_usd": 583680570.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 95817910.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 78541680.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 65818700.0
+      },
+      {
+        "country": "France",
+        "value_usd": 6114080.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ARG/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/ARG/product/283691"
+  },
+  {
+    "country": "Mozambique",
+    "reporter_code": "MOZ",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 291170.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 291170.0,
+    "reported_exports_kg": 572500.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 572500.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "MEDIUM",
+    "reasons": [
+      "mirror imports are 100.0% below reported exports",
+      "gap = 572,500 kg, threshold >= 500,000 kg and >= 20%"
+    ],
+    "rule_summary": "reported exports = 572,500 kg, mirror imports = 0 kg, gap = 572,500 kg (100.00%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 291170.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/MOZ/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/MOZ/product/283691"
+  },
+  {
+    "country": "Germany",
+    "reporter_code": "DEU",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 51668540.0,
+    "mirror_imports_usd": 31843250.0,
+    "gap_usd": 19825290.0,
+    "reported_exports_kg": 3139770.0,
+    "mirror_imports_kg": 1640035.0,
+    "gap_kg": 1499735.0,
+    "gap_pct": 47.77,
+    "direction": "mirror_below_reported",
+    "risk": "MEDIUM",
+    "reasons": [
+      "mirror imports are 47.8% below reported exports",
+      "gap = 1,499,735 kg, threshold >= 500,000 kg and >= 20%"
+    ],
+    "rule_summary": "reported exports = 3,139,770 kg, mirror imports = 1,640,035 kg, gap = 1,499,735 kg (47.77%)",
+    "top_export_partners": [
+      {
+        "country": "France",
+        "value_usd": 12610550.0
+      },
+      {
+        "country": "Turkey",
+        "value_usd": 7965700.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 6635870.0
+      },
+      {
+        "country": "China",
+        "value_usd": 5791940.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 3042160.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Italy",
+        "value_usd": 7871910.0
+      },
+      {
+        "country": "Hungary",
+        "value_usd": 6069270.0
+      },
+      {
+        "country": "France",
+        "value_usd": 4984210.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 3352780.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 2685490.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/DEU/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/DEU/product/283691"
+  },
+  {
+    "country": "Korea, Rep.",
+    "reporter_code": "KOR",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 76087550.0,
+    "mirror_imports_usd": 36231620.0,
+    "gap_usd": 39855930.0,
+    "reported_exports_kg": 4658070.0,
+    "mirror_imports_kg": 2920714.0,
+    "gap_kg": 1737356.0,
+    "gap_pct": 37.3,
+    "direction": "mirror_below_reported",
+    "risk": "MEDIUM",
+    "reasons": [
+      "mirror imports are 37.3% below reported exports",
+      "gap = 1,737,356 kg, threshold >= 500,000 kg and >= 20%"
+    ],
+    "rule_summary": "reported exports = 4,658,070 kg, mirror imports = 2,920,714 kg, gap = 1,737,356 kg (37.30%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 59985720.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 6079150.0
+      },
+      {
+        "country": "Latvia",
+        "value_usd": 3074170.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 2629510.0
+      },
+      {
+        "country": "Malaysia",
+        "value_usd": 1741970.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "China",
+        "value_usd": 29684810.0
+      },
+      {
+        "country": "Malaysia",
+        "value_usd": 1815830.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 1599100.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 1300260.0
+      },
+      {
+        "country": "Hungary",
+        "value_usd": 995090.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/KOR/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/KOR/product/283691"
+  },
+  {
+    "country": "United States",
+    "reporter_code": "USA",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 25703170.0,
+    "mirror_imports_usd": 6439740.0,
+    "gap_usd": 19263430.0,
+    "reported_exports_kg": 0.0,
+    "mirror_imports_kg": 142994.0,
+    "gap_kg": 142994.0,
+    "gap_pct": 14299400.0,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 0 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 0 kg, mirror imports = 142,994 kg, gap = 142,994 kg (14299400.00%)",
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 14969780.0
+      },
+      {
+        "country": "India",
+        "value_usd": 5137200.0
+      },
+      {
+        "country": "Mexico",
+        "value_usd": 1915900.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 1640360.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 811660.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "India",
+        "value_usd": 4461340.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 514120.0
+      },
+      {
+        "country": "Israel",
+        "value_usd": 294000.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 270950.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 131560.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/USA/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/USA/product/283691"
+  },
+  {
+    "country": "Czech Republic",
+    "reporter_code": "CZE",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 2460.0,
+    "mirror_imports_usd": 227260.0,
+    "gap_usd": 224800.0,
+    "reported_exports_kg": 18.0,
+    "mirror_imports_kg": 74247.0,
+    "gap_kg": 74229.0,
+    "gap_pct": 412383.33,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 18 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 18 kg, mirror imports = 74,247 kg, gap = 74,229 kg (412383.33%)",
+    "top_export_partners": [
+      {
+        "country": "Romania",
+        "value_usd": 1300.0
+      },
+      {
+        "country": "Croatia",
+        "value_usd": 1160.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "United Kingdom",
+        "value_usd": 94840.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 88000.0
+      },
+      {
+        "country": "Slovak Republic",
+        "value_usd": 28990.0
+      },
+      {
+        "country": "South Africa",
+        "value_usd": 5540.0
+      },
+      {
+        "country": "China",
+        "value_usd": 3710.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CZE/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/CZE/product/283691"
+  },
+  {
+    "country": "Ireland",
+    "reporter_code": "IRL",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 9760.0,
+    "mirror_imports_usd": 237090.0,
+    "gap_usd": 227330.0,
+    "reported_exports_kg": 249.0,
+    "mirror_imports_kg": 400307.0,
+    "gap_kg": 400058.0,
+    "gap_pct": 160665.86,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 249 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 249 kg, mirror imports = 400,307 kg, gap = 400,058 kg (160665.86%)",
+    "top_export_partners": [
+      {
+        "country": "United Kingdom",
+        "value_usd": 9760.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "India",
+        "value_usd": 225200.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 11890.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 0.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/IRL/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/IRL/product/283691"
+  },
+  {
+    "country": "Portugal",
+    "reporter_code": "PRT",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 13560.0,
+    "mirror_imports_usd": 317550.0,
+    "gap_usd": 303990.0,
+    "reported_exports_kg": 3171.0,
+    "mirror_imports_kg": 961592.0,
+    "gap_kg": 958421.0,
+    "gap_pct": 30224.57,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 3,171 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 3,171 kg, mirror imports = 961,592 kg, gap = 958,421 kg (30224.57%)",
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 11180.0
+      },
+      {
+        "country": "Israel",
+        "value_usd": 1000.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 850.0
+      },
+      {
+        "country": "Cape Verde",
+        "value_usd": 480.0
+      },
+      {
+        "country": "Angola",
+        "value_usd": 40.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Spain",
+        "value_usd": 272200.0
+      },
+      {
+        "country": "France",
+        "value_usd": 43480.0
+      },
+      {
+        "country": "Israel",
+        "value_usd": 1000.0
+      },
+      {
+        "country": "Cape Verde",
+        "value_usd": 870.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 0.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/PRT/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/PRT/product/283691"
+  },
+  {
+    "country": "Hong Kong, China",
+    "reporter_code": "HKG",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 80.0,
+    "mirror_imports_usd": 45010.0,
+    "gap_usd": 44930.0,
+    "reported_exports_kg": 13.0,
+    "mirror_imports_kg": 2988.0,
+    "gap_kg": 2975.0,
+    "gap_pct": 22884.62,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 13 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 13 kg, mirror imports = 2,988 kg, gap = 2,975 kg (22884.62%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 70.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 10.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Israel",
+        "value_usd": 45000.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 10.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/HKG/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/HKG/product/283691"
+  },
+  {
+    "country": "Finland",
+    "reporter_code": "FIN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 0.0,
+    "mirror_imports_usd": 750.0,
+    "gap_usd": 750.0,
+    "reported_exports_kg": 2.0,
+    "mirror_imports_kg": 36.0,
+    "gap_kg": 34.0,
+    "gap_pct": 1700.0,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 2 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 2 kg, mirror imports = 36 kg, gap = 34 kg (1700.00%)",
+    "top_export_partners": [
+      {
+        "country": "Norway",
+        "value_usd": 0.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 750.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/FIN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/FIN/product/283691"
+  },
+  {
+    "country": "Canada",
+    "reporter_code": "CAN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 1680.0,
+    "mirror_imports_usd": 6320.0,
+    "gap_usd": 4640.0,
+    "reported_exports_kg": 23.0,
+    "mirror_imports_kg": 336.0,
+    "gap_kg": 313.0,
+    "gap_pct": 1360.87,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 23 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 23 kg, mirror imports = 336 kg, gap = 313 kg (1360.87%)",
+    "top_export_partners": [
+      {
+        "country": "Netherlands",
+        "value_usd": 1680.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Sweden",
+        "value_usd": 1800.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 1750.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 1740.0
+      },
+      {
+        "country": "Egypt, Arab Rep.",
+        "value_usd": 740.0
+      },
+      {
+        "country": "France",
+        "value_usd": 160.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/CAN/product/283691"
+  },
+  {
+    "country": "South Africa",
+    "reporter_code": "ZAF",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 110.0,
+    "mirror_imports_usd": 1050.0,
+    "gap_usd": 940.0,
+    "reported_exports_kg": 20.0,
+    "mirror_imports_kg": 116.0,
+    "gap_kg": 96.0,
+    "gap_pct": 480.0,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 20 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 20 kg, mirror imports = 116 kg, gap = 96 kg (480.00%)",
+    "top_export_partners": [
+      {
+        "country": "Eswatini",
+        "value_usd": 50.0
+      },
+      {
+        "country": "Seychelles",
+        "value_usd": 40.0
+      },
+      {
+        "country": "China",
+        "value_usd": 10.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Seychelles",
+        "value_usd": 810.0
+      },
+      {
+        "country": "Malawi",
+        "value_usd": 240.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ZAF/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/ZAF/product/283691"
+  },
+  {
+    "country": "Denmark",
+    "reporter_code": "DNK",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 356710.0,
+    "mirror_imports_usd": 388620.0,
+    "gap_usd": 31910.0,
+    "reported_exports_kg": 17175.0,
+    "mirror_imports_kg": 41000.0,
+    "gap_kg": 23825.0,
+    "gap_pct": 138.72,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 17,175 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 17,175 kg, mirror imports = 41,000 kg, gap = 23,825 kg (138.72%)",
+    "top_export_partners": [
+      {
+        "country": "Sweden",
+        "value_usd": 346140.0
+      },
+      {
+        "country": "Estonia",
+        "value_usd": 10570.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Sweden",
+        "value_usd": 351640.0
+      },
+      {
+        "country": "Austria",
+        "value_usd": 36980.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 0.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/DNK/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/DNK/product/283691"
+  },
+  {
+    "country": "Turkey",
+    "reporter_code": "TUR",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 21820.0,
+    "mirror_imports_usd": 8600.0,
+    "gap_usd": 13220.0,
+    "reported_exports_kg": 807.0,
+    "mirror_imports_kg": 1713.0,
+    "gap_kg": 906.0,
+    "gap_pct": 112.27,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 807 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 807 kg, mirror imports = 1,713 kg, gap = 906 kg (112.27%)",
+    "top_export_partners": [
+      {
+        "country": "Azerbaijan",
+        "value_usd": 7900.0
+      },
+      {
+        "country": "Russian Federation",
+        "value_usd": 6670.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 3300.0
+      },
+      {
+        "country": "Greece",
+        "value_usd": 2150.0
+      },
+      {
+        "country": "Cyprus",
+        "value_usd": 1440.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 4660.0
+      },
+      {
+        "country": "Greece",
+        "value_usd": 2270.0
+      },
+      {
+        "country": "Jordan",
+        "value_usd": 1190.0
+      },
+      {
+        "country": "Georgia",
+        "value_usd": 350.0
+      },
+      {
+        "country": "Chile",
+        "value_usd": 130.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/TUR/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/TUR/product/283691"
+  },
+  {
+    "country": "Singapore",
+    "reporter_code": "SGP",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 21280.0,
+    "mirror_imports_usd": 444310.0,
+    "gap_usd": 423030.0,
+    "reported_exports_kg": 7060.0,
+    "mirror_imports_kg": 14412.0,
+    "gap_kg": 7352.0,
+    "gap_pct": 104.14,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 7,060 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 7,060 kg, mirror imports = 14,412 kg, gap = 7,352 kg (104.14%)",
+    "top_export_partners": [
+      {
+        "country": "Indonesia",
+        "value_usd": 11280.0
+      },
+      {
+        "country": "Malaysia",
+        "value_usd": 6280.0
+      },
+      {
+        "country": "Maldives",
+        "value_usd": 3650.0
+      },
+      {
+        "country": "Philippines",
+        "value_usd": 80.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Canada",
+        "value_usd": 400330.0
+      },
+      {
+        "country": "Israel",
+        "value_usd": 26000.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 11220.0
+      },
+      {
+        "country": "Malaysia",
+        "value_usd": 6580.0
+      },
+      {
+        "country": "India",
+        "value_usd": 90.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SGP/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/SGP/product/283691"
+  },
+  {
+    "country": "Guatemala",
+    "reporter_code": "GTM",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 18460.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 18460.0,
+    "reported_exports_kg": 1862.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 1862.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 1,862 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 1,862 kg, mirror imports = 0 kg, gap = 1,862 kg (100.00%)",
+    "top_export_partners": [
+      {
+        "country": "Dominican Republic",
+        "value_usd": 18460.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/GTM/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/GTM/product/283691"
+  },
+  {
+    "country": "Indonesia",
+    "reporter_code": "IDN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 0.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 0.0,
+    "reported_exports_kg": 2.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 2.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 2 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 2 kg, mirror imports = 0 kg, gap = 2 kg (100.00%)",
+    "top_export_partners": [
+      {
+        "country": "Singapore",
+        "value_usd": 0.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/IDN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/IDN/product/283691"
+  },
+  {
+    "country": "Latvia",
+    "reporter_code": "LVA",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 50.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 50.0,
+    "reported_exports_kg": 1.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 1.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 1 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 1 kg, mirror imports = 0 kg, gap = 1 kg (100.00%)",
+    "top_export_partners": [
+      {
+        "country": "Poland",
+        "value_usd": 50.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/LVA/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/LVA/product/283691"
+  },
+  {
+    "country": "New Zealand",
+    "reporter_code": "NZL",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 18120.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 18120.0,
+    "reported_exports_kg": 34.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 34.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 34 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 34 kg, mirror imports = 0 kg, gap = 34 kg (100.00%)",
+    "top_export_partners": [
+      {
+        "country": "Jamaica",
+        "value_usd": 18120.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/NZL/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/NZL/product/283691"
+  },
+  {
+    "country": "Thailand",
+    "reporter_code": "THA",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 161500.0,
+    "mirror_imports_usd": 100.0,
+    "gap_usd": 161400.0,
+    "reported_exports_kg": 18837.0,
+    "mirror_imports_kg": 1.0,
+    "gap_kg": 18836.0,
+    "gap_pct": 99.99,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 18,837 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 18,837 kg, mirror imports = 1 kg, gap = 18,836 kg (99.99%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 139120.0
+      },
+      {
+        "country": "India",
+        "value_usd": 18400.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 3990.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Indonesia",
+        "value_usd": 100.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/THA/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/THA/product/283691"
+  },
+  {
+    "country": "Slovak Republic",
+    "reporter_code": "SVK",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 207760.0,
+    "mirror_imports_usd": 20.0,
+    "gap_usd": 207740.0,
+    "reported_exports_kg": 1600.0,
+    "mirror_imports_kg": 1.0,
+    "gap_kg": 1599.0,
+    "gap_pct": 99.94,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 1,600 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 1,600 kg, mirror imports = 1 kg, gap = 1,599 kg (99.94%)",
+    "top_export_partners": [
+      {
+        "country": "France",
+        "value_usd": 207760.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 20.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SVK/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/SVK/product/283691"
+  },
+  {
+    "country": "Croatia",
+    "reporter_code": "HRV",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 38810.0,
+    "mirror_imports_usd": 2310.0,
+    "gap_usd": 36500.0,
+    "reported_exports_kg": 1805.0,
+    "mirror_imports_kg": 102.0,
+    "gap_kg": 1703.0,
+    "gap_pct": 94.35,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 1,805 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 1,805 kg, mirror imports = 102 kg, gap = 1,703 kg (94.35%)",
+    "top_export_partners": [
+      {
+        "country": "Serbia, FR(Serbia/Montenegro)",
+        "value_usd": 38010.0
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "value_usd": 800.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Slovenia",
+        "value_usd": 1490.0
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "value_usd": 820.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/HRV/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/HRV/product/283691"
+  },
+  {
+    "country": "India",
+    "reporter_code": "IND",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 3707680.0,
+    "mirror_imports_usd": 2391810.0,
+    "gap_usd": 1315870.0,
+    "reported_exports_kg": 320934.0,
+    "mirror_imports_kg": 45903.0,
+    "gap_kg": 275031.0,
+    "gap_pct": 85.7,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "small export volume",
+      "reported exports = 320,934 kg, below 500,000 kg"
+    ],
+    "rule_summary": "reported exports = 320,934 kg, mirror imports = 45,903 kg, gap = 275,031 kg (85.70%)",
+    "top_export_partners": [
+      {
+        "country": "Turkey",
+        "value_usd": 902230.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 778270.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 421530.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 300590.0
+      },
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 257420.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 811310.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 484590.0
+      },
+      {
+        "country": "China",
+        "value_usd": 274780.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 256680.0
+      },
+      {
+        "country": "Sri Lanka",
+        "value_usd": 137160.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/IND/product/283691"
+  },
+  {
+    "country": "Lithuania",
+    "reporter_code": "LTU",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 39120.0,
+    "mirror_imports_usd": 19600.0,
+    "gap_usd": 19520.0,
+    "reported_exports_kg": 940.0,
+    "mirror_imports_kg": 260.0,
+    "gap_kg": 680.0,
+    "gap_pct": 72.34,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 940 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 940 kg, mirror imports = 260 kg, gap = 680 kg (72.34%)",
+    "top_export_partners": [
+      {
+        "country": "Latvia",
+        "value_usd": 22070.0
+      },
+      {
+        "country": "Estonia",
+        "value_usd": 15580.0
+      },
+      {
+        "country": "Belarus",
+        "value_usd": 1470.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Latvia",
+        "value_usd": 19600.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 0.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/LTU/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/LTU/product/283691"
+  },
+  {
+    "country": "Poland",
+    "reporter_code": "POL",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 136820.0,
+    "mirror_imports_usd": 34130.0,
+    "gap_usd": 102690.0,
+    "reported_exports_kg": 2681.0,
+    "mirror_imports_kg": 1084.0,
+    "gap_kg": 1597.0,
+    "gap_pct": 59.57,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 2,681 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 2,681 kg, mirror imports = 1,084 kg, gap = 1,597 kg (59.57%)",
+    "top_export_partners": [
+      {
+        "country": "Ukraine",
+        "value_usd": 56460.0
+      },
+      {
+        "country": "Estonia",
+        "value_usd": 37230.0
+      },
+      {
+        "country": "Belarus",
+        "value_usd": 23430.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 9890.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 9440.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Czech Republic",
+        "value_usd": 13080.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 12360.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 7340.0
+      },
+      {
+        "country": "Croatia",
+        "value_usd": 640.0
+      },
+      {
+        "country": "Romania",
+        "value_usd": 390.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/POL/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/POL/product/283691"
+  },
+  {
+    "country": "Namibia",
+    "reporter_code": "NAM",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 150.0,
+    "mirror_imports_usd": 0.0,
+    "gap_usd": 150.0,
+    "reported_exports_kg": 300.0,
+    "mirror_imports_kg": 123.0,
+    "gap_kg": 177.0,
+    "gap_pct": 59.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 300 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 300 kg, mirror imports = 123 kg, gap = 177 kg (59.00%)",
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 150.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "South Africa",
+        "value_usd": 0.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/NAM/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/NAM/product/283691"
+  },
+  {
+    "country": "Spain",
+    "reporter_code": "ESP",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 1557410.0,
+    "mirror_imports_usd": 330590.0,
+    "gap_usd": 1226820.0,
+    "reported_exports_kg": 312416.0,
+    "mirror_imports_kg": 151745.0,
+    "gap_kg": 160671.0,
+    "gap_pct": 51.43,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "small export volume",
+      "reported exports = 312,416 kg, below 500,000 kg"
+    ],
+    "rule_summary": "reported exports = 312,416 kg, mirror imports = 151,745 kg, gap = 160,671 kg (51.43%)",
+    "top_export_partners": [
+      {
+        "country": "France",
+        "value_usd": 650600.0
+      },
+      {
+        "country": "Mexico",
+        "value_usd": 430510.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 283870.0
+      },
+      {
+        "country": "Senegal",
+        "value_usd": 131320.0
+      },
+      {
+        "country": "Portugal",
+        "value_usd": 37530.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Italy",
+        "value_usd": 160430.0
+      },
+      {
+        "country": "Senegal",
+        "value_usd": 50720.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 46320.0
+      },
+      {
+        "country": "Portugal",
+        "value_usd": 33440.0
+      },
+      {
+        "country": "Ireland",
+        "value_usd": 22340.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ESP/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/ESP/product/283691"
+  },
+  {
+    "country": "Sweden",
+    "reporter_code": "SWE",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 74380.0,
+    "mirror_imports_usd": 35510.0,
+    "gap_usd": 38870.0,
+    "reported_exports_kg": 4031.0,
+    "mirror_imports_kg": 2172.0,
+    "gap_kg": 1859.0,
+    "gap_pct": 46.12,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 4,031 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 4,031 kg, mirror imports = 2,172 kg, gap = 1,859 kg (46.12%)",
+    "top_export_partners": [
+      {
+        "country": "Iceland",
+        "value_usd": 73810.0
+      },
+      {
+        "country": "Finland",
+        "value_usd": 470.0
+      },
+      {
+        "country": "Norway",
+        "value_usd": 90.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Iceland",
+        "value_usd": 35160.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 140.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 110.0
+      },
+      {
+        "country": "Finland",
+        "value_usd": 100.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SWE/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/SWE/product/283691"
+  },
+  {
+    "country": "Italy",
+    "reporter_code": "ITA",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 2878170.0,
+    "mirror_imports_usd": 1998830.0,
+    "gap_usd": 879340.0,
+    "reported_exports_kg": 192651.0,
+    "mirror_imports_kg": 115256.0,
+    "gap_kg": 77395.0,
+    "gap_pct": 40.17,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "small export volume",
+      "reported exports = 192,651 kg, below 500,000 kg"
+    ],
+    "rule_summary": "reported exports = 192,651 kg, mirror imports = 115,256 kg, gap = 77,395 kg (40.17%)",
+    "top_export_partners": [
+      {
+        "country": "Netherlands",
+        "value_usd": 931200.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 345730.0
+      },
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 270500.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 244800.0
+      },
+      {
+        "country": "Portugal",
+        "value_usd": 180170.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 784880.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 250880.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 249300.0
+      },
+      {
+        "country": "Malaysia",
+        "value_usd": 220420.0
+      },
+      {
+        "country": "Portugal",
+        "value_usd": 185570.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ITA/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/ITA/product/283691"
+  },
+  {
+    "country": "Australia",
+    "reporter_code": "AUS",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 86560.0,
+    "mirror_imports_usd": 64940.0,
+    "gap_usd": 21620.0,
+    "reported_exports_kg": 12918.0,
+    "mirror_imports_kg": 8291.0,
+    "gap_kg": 4627.0,
+    "gap_pct": 35.82,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 12,918 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 12,918 kg, mirror imports = 8,291 kg, gap = 4,627 kg (35.82%)",
+    "top_export_partners": [
+      {
+        "country": "Malaysia",
+        "value_usd": 67890.0
+      },
+      {
+        "country": "Papua New Guinea",
+        "value_usd": 15000.0
+      },
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 3670.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Malaysia",
+        "value_usd": 43740.0
+      },
+      {
+        "country": "New Zealand",
+        "value_usd": 14480.0
+      },
+      {
+        "country": "Algeria",
+        "value_usd": 4920.0
+      },
+      {
+        "country": "Cote d'Ivoire",
+        "value_usd": 1310.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 490.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/AUS/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/AUS/product/283691"
+  },
+  {
+    "country": "Belgium",
+    "reporter_code": "BEL",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 3370240.0,
+    "mirror_imports_usd": 6083290.0,
+    "gap_usd": 2713050.0,
+    "reported_exports_kg": 321513.0,
+    "mirror_imports_kg": 414653.0,
+    "gap_kg": 93140.0,
+    "gap_pct": 28.97,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "small export volume",
+      "reported exports = 321,513 kg, below 500,000 kg"
+    ],
+    "rule_summary": "reported exports = 321,513 kg, mirror imports = 414,653 kg, gap = 93,140 kg (28.97%)",
+    "top_export_partners": [
+      {
+        "country": "United States",
+        "value_usd": 2121140.0
+      },
+      {
+        "country": "China",
+        "value_usd": 479560.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 199220.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 137630.0
+      },
+      {
+        "country": "India",
+        "value_usd": 116780.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Germany",
+        "value_usd": 2692390.0
+      },
+      {
+        "country": "France",
+        "value_usd": 616220.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 592400.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 378610.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 355140.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/BEL/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BEL/product/283691"
+  },
+  {
+    "country": "Austria",
+    "reporter_code": "AUT",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 342780.0,
+    "mirror_imports_usd": 252030.0,
+    "gap_usd": 90750.0,
+    "reported_exports_kg": 27820.0,
+    "mirror_imports_kg": 20122.0,
+    "gap_kg": 7698.0,
+    "gap_pct": 27.67,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 27,820 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 27,820 kg, mirror imports = 20,122 kg, gap = 7,698 kg (27.67%)",
+    "top_export_partners": [
+      {
+        "country": "Czech Republic",
+        "value_usd": 119890.0
+      },
+      {
+        "country": "Turkey",
+        "value_usd": 65890.0
+      },
+      {
+        "country": "Hungary",
+        "value_usd": 60990.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 42980.0
+      },
+      {
+        "country": "Lithuania",
+        "value_usd": 25930.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Croatia",
+        "value_usd": 129240.0
+      },
+      {
+        "country": "Hungary",
+        "value_usd": 61170.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 21150.0
+      },
+      {
+        "country": "Lithuania",
+        "value_usd": 21040.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 9300.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/AUT/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/AUT/product/283691"
+  },
+  {
+    "country": "Brazil",
+    "reporter_code": "BRA",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 4549420.0,
+    "mirror_imports_usd": 2427700.0,
+    "gap_usd": 2121720.0,
+    "reported_exports_kg": 291793.0,
+    "mirror_imports_kg": 218933.0,
+    "gap_kg": 72860.0,
+    "gap_pct": 24.97,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "small export volume",
+      "reported exports = 291,793 kg, below 500,000 kg"
+    ],
+    "rule_summary": "reported exports = 291,793 kg, mirror imports = 218,933 kg, gap = 72,860 kg (24.97%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 2794560.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 1215060.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 377720.0
+      },
+      {
+        "country": "Colombia",
+        "value_usd": 112820.0
+      },
+      {
+        "country": "India",
+        "value_usd": 36000.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "China",
+        "value_usd": 1853590.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 381890.0
+      },
+      {
+        "country": "Colombia",
+        "value_usd": 116890.0
+      },
+      {
+        "country": "India",
+        "value_usd": 59450.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 10730.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/BRA/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/BRA/product/283691"
+  },
+  {
+    "country": "Japan",
+    "reporter_code": "JPN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 769680.0,
+    "mirror_imports_usd": 862030.0,
+    "gap_usd": 92350.0,
+    "reported_exports_kg": 40318.0,
+    "mirror_imports_kg": 49965.0,
+    "gap_kg": 9647.0,
+    "gap_pct": 23.93,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 40,318 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 40,318 kg, mirror imports = 49,965 kg, gap = 9,647 kg (23.93%)",
+    "top_export_partners": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 457090.0
+      },
+      {
+        "country": "China",
+        "value_usd": 135910.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 76980.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 51600.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 46640.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 480660.0
+      },
+      {
+        "country": "China",
+        "value_usd": 133560.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 65230.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 60460.0
+      },
+      {
+        "country": "India",
+        "value_usd": 55960.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/JPN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/JPN/product/283691"
+  },
+  {
+    "country": "United Kingdom",
+    "reporter_code": "GBR",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 24472390.0,
+    "mirror_imports_usd": 26785810.0,
+    "gap_usd": 2313420.0,
+    "reported_exports_kg": 1733640.0,
+    "mirror_imports_kg": 2144404.0,
+    "gap_kg": 410764.0,
+    "gap_pct": 23.69,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close at this scale",
+      "gap = 410,764 kg and gap % = 23.69%"
+    ],
+    "rule_summary": "reported exports = 1,733,640 kg, mirror imports = 2,144,404 kg, gap = 410,764 kg (23.69%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 13626970.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 3490710.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 2663550.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 743410.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 462990.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "China",
+        "value_usd": 15971310.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 3276790.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 2698070.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 1331980.0
+      },
+      {
+        "country": "Czech Republic",
+        "value_usd": 419120.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/GBR/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/GBR/product/283691"
+  },
+  {
+    "country": "Slovenia",
+    "reporter_code": "SVN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 4350.0,
+    "mirror_imports_usd": 713840.0,
+    "gap_usd": 709490.0,
+    "reported_exports_kg": 5016.0,
+    "mirror_imports_kg": 3900.0,
+    "gap_kg": 1116.0,
+    "gap_pct": 22.25,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 5,016 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 5,016 kg, mirror imports = 3,900 kg, gap = 1,116 kg (22.25%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 4180.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 140.0
+      },
+      {
+        "country": "Bosnia and Herzegovina",
+        "value_usd": 30.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Canada",
+        "value_usd": 712700.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 1140.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SVN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/SVN/product/283691"
+  },
+  {
+    "country": "Switzerland",
+    "reporter_code": "CHE",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 528970.0,
+    "mirror_imports_usd": 693600.0,
+    "gap_usd": 164630.0,
+    "reported_exports_kg": 48583.0,
+    "mirror_imports_kg": 58949.0,
+    "gap_kg": 10366.0,
+    "gap_pct": 21.34,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 48,583 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 48,583 kg, mirror imports = 58,949 kg, gap = 10,366 kg (21.34%)",
+    "top_export_partners": [
+      {
+        "country": "France",
+        "value_usd": 507460.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 12440.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 9080.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "France",
+        "value_usd": 509140.0
+      },
+      {
+        "country": "Norway",
+        "value_usd": 110340.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 61280.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 7720.0
+      },
+      {
+        "country": "Costa Rica",
+        "value_usd": 2420.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CHE/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/CHE/product/283691"
+  },
+  {
+    "country": "France",
+    "reporter_code": "FRA",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 8415430.0,
+    "mirror_imports_usd": 6642220.0,
+    "gap_usd": 1773210.0,
+    "reported_exports_kg": 419957.0,
+    "mirror_imports_kg": 461583.0,
+    "gap_kg": 41626.0,
+    "gap_pct": 9.91,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "small export volume",
+      "reported exports = 419,957 kg, below 500,000 kg"
+    ],
+    "rule_summary": "reported exports = 419,957 kg, mirror imports = 461,583 kg, gap = 41,626 kg (9.91%)",
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 2503950.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 1854770.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 1391540.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 1179550.0
+      },
+      {
+        "country": "India",
+        "value_usd": 338040.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 2015630.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 1953500.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 1207240.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 700410.0
+      },
+      {
+        "country": "France",
+        "value_usd": 195900.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/FRA/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/FRA/product/283691"
+  },
+  {
+    "country": "China",
+    "reporter_code": "CHN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 61657340.0,
+    "mirror_imports_usd": 57574920.0,
+    "gap_usd": 4082420.0,
+    "reported_exports_kg": 3828420.0,
+    "mirror_imports_kg": 3451827.0,
+    "gap_kg": 376593.0,
+    "gap_pct": 9.84,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close at this scale",
+      "gap = 376,593 kg and gap % = 9.84%"
+    ],
+    "rule_summary": "reported exports = 3,828,420 kg, mirror imports = 3,451,827 kg, gap = 376,593 kg (9.84%)",
+    "top_export_partners": [
+      {
+        "country": "Japan",
+        "value_usd": 34208660.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 7760500.0
+      },
+      {
+        "country": "India",
+        "value_usd": 3441110.0
+      },
+      {
+        "country": "Russian Federation",
+        "value_usd": 3322150.0
+      },
+      {
+        "country": "Australia",
+        "value_usd": 2549440.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Japan",
+        "value_usd": 35570210.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 8506270.0
+      },
+      {
+        "country": "Australia",
+        "value_usd": 2690430.0
+      },
+      {
+        "country": "India",
+        "value_usd": 2477770.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 1842080.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/CHN/product/283691"
+  },
+  {
+    "country": "Chile",
+    "reporter_code": "CHL",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 2325804630.0,
+    "mirror_imports_usd": 2921097340.0,
+    "gap_usd": 595292710.0,
+    "reported_exports_kg": 233704000.0,
+    "mirror_imports_kg": 232867247.0,
+    "gap_kg": 836753.0,
+    "gap_pct": 0.36,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close",
+      "gap = 836,753 kg and gap % = 0.36%"
+    ],
+    "rule_summary": "reported exports = 233,704,000 kg, mirror imports = 232,867,247 kg, gap = 836,753 kg (0.36%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 1750842540.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 264690670.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 107095420.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 100651450.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 76089180.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "China",
+        "value_usd": 2088792300.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 377790860.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 137282170.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 120716270.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 98879430.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CHL/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/CHL/product/283691"
+  },
+  {
+    "country": "Hungary",
+    "reporter_code": "HUN",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 61040.0,
+    "mirror_imports_usd": 56070.0,
+    "gap_usd": 4970.0,
+    "reported_exports_kg": 3001.0,
+    "mirror_imports_kg": 3002.0,
+    "gap_kg": 1.0,
+    "gap_pct": 0.03,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 3,001 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 3,001 kg, mirror imports = 3,002 kg, gap = 1 kg (0.03%)",
+    "top_export_partners": [
+      {
+        "country": "Romania",
+        "value_usd": 61040.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Romania",
+        "value_usd": 56070.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/HUN/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/HUN/product/283691"
+  },
+  {
+    "country": "Malaysia",
+    "reporter_code": "MYS",
+    "year": 2024,
+    "product_code": "283691",
+    "product": "Lithium carbonates exports by country",
+    "reported_exports_usd": 30.0,
+    "mirror_imports_usd": 190.0,
+    "gap_usd": 160.0,
+    "reported_exports_kg": 1.0,
+    "mirror_imports_kg": 1.0,
+    "gap_kg": 0.0,
+    "gap_pct": 0.0,
+    "direction": "match",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume",
+      "reported exports = 1 kg, below 100,000 kg floor"
+    ],
+    "rule_summary": "reported exports = 1 kg, mirror imports = 1 kg, gap = 0 kg (0.00%)",
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 30.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Portugal",
+        "value_usd": 190.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/MYS/year/2024/tradeflow/Exports/partner/ALL/product/283691",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2024/tradeflow/Imports/partner/MYS/product/283691"
+  }
+]

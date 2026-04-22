@@ -1,0 +1,1994 @@
+[
+  {
+    "country": "Belgium",
+    "reporter_code": "BEL",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 3745490.0,
+    "mirror_imports_usd": 7633110.0,
+    "gap_usd": 3887620.0,
+    "reported_exports_kg": 409281.0,
+    "mirror_imports_kg": 872940.0,
+    "gap_kg": 463659.0,
+    "gap_pct": 113.29,
+    "direction": "mirror_above_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 113.3% above reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 1390610.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 1006710.0
+      },
+      {
+        "country": "France",
+        "value_usd": 393070.0
+      },
+      {
+        "country": "Turkey",
+        "value_usd": 309610.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 218250.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "United Kingdom",
+        "value_usd": 3291100.0
+      },
+      {
+        "country": "India",
+        "value_usd": 1607010.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 1094970.0
+      },
+      {
+        "country": "France",
+        "value_usd": 633870.0
+      },
+      {
+        "country": "Australia",
+        "value_usd": 330870.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/BEL/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/BEL/product/282520"
+  },
+  {
+    "country": "Switzerland",
+    "reporter_code": "CHE",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 1791680.0,
+    "mirror_imports_usd": 70150.0,
+    "gap_usd": 1721530.0,
+    "reported_exports_kg": 1772310.0,
+    "mirror_imports_kg": 4087.0,
+    "gap_kg": 1768223.0,
+    "gap_pct": 99.77,
+    "direction": "mirror_below_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 99.8% below reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Israel",
+        "value_usd": 792190.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 512730.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 456050.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 24260.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 3400.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Israel",
+        "value_usd": 24000.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 23040.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 18600.0
+      },
+      {
+        "country": "Russian Federation",
+        "value_usd": 1910.0
+      },
+      {
+        "country": "Malaysia",
+        "value_usd": 1250.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CHE/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/CHE/product/282520"
+  },
+  {
+    "country": "United Kingdom",
+    "reporter_code": "GBR",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 2625640.0,
+    "mirror_imports_usd": 2111380.0,
+    "gap_usd": 514260.0,
+    "reported_exports_kg": 290820.0,
+    "mirror_imports_kg": 185293.0,
+    "gap_kg": 105527.0,
+    "gap_pct": 36.29,
+    "direction": "mirror_below_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 36.3% below reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 382120.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 374220.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 364430.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 348350.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 344810.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 439570.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 285000.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 232580.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 195940.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 152110.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/GBR/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/GBR/product/282520"
+  },
+  {
+    "country": "Estonia",
+    "reporter_code": "EST",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 2130440.0,
+    "mirror_imports_usd": 1507230.0,
+    "gap_usd": 623210.0,
+    "reported_exports_kg": 251350.0,
+    "mirror_imports_kg": 162309.0,
+    "gap_kg": 89041.0,
+    "gap_pct": 35.43,
+    "direction": "mirror_below_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 35.4% below reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Netherlands",
+        "value_usd": 975540.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 313470.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 312810.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 258870.0
+      },
+      {
+        "country": "Greece",
+        "value_usd": 94080.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 1079210.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 316000.0
+      },
+      {
+        "country": "Greece",
+        "value_usd": 95140.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 15930.0
+      },
+      {
+        "country": "Lithuania",
+        "value_usd": 520.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/EST/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/EST/product/282520"
+  },
+  {
+    "country": "India",
+    "reporter_code": "IND",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 1155940.0,
+    "mirror_imports_usd": 649370.0,
+    "gap_usd": 506570.0,
+    "reported_exports_kg": 170844.0,
+    "mirror_imports_kg": 227991.0,
+    "gap_kg": 57147.0,
+    "gap_pct": 33.45,
+    "direction": "mirror_above_reported",
+    "risk": "HIGH",
+    "reasons": [
+      "mirror imports are 33.4% above reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 566750.0
+      },
+      {
+        "country": "Bangladesh",
+        "value_usd": 102260.0
+      },
+      {
+        "country": "Mexico",
+        "value_usd": 98090.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 59100.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 54580.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "South Africa",
+        "value_usd": 199700.0
+      },
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 98210.0
+      },
+      {
+        "country": "Tanzania",
+        "value_usd": 85240.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 80150.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 62250.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/IND/product/282520"
+  },
+  {
+    "country": "Netherlands",
+    "reporter_code": "NLD",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 20429860.0,
+    "mirror_imports_usd": 8081520.0,
+    "gap_usd": 12348340.0,
+    "reported_exports_kg": 2587250.0,
+    "mirror_imports_kg": 3167999.0,
+    "gap_kg": 580749.0,
+    "gap_pct": 22.45,
+    "direction": "mirror_above_reported",
+    "risk": "MEDIUM",
+    "reasons": [
+      "mirror imports are 22.4% above reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Belgium",
+        "value_usd": 4287180.0
+      },
+      {
+        "country": "France",
+        "value_usd": 3763460.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 3671740.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 2964330.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 1448860.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "France",
+        "value_usd": 2941120.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 2595930.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 1112520.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 368500.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 283510.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/NLD/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/NLD/product/282520"
+  },
+  {
+    "country": "France",
+    "reporter_code": "FRA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 2181970.0,
+    "mirror_imports_usd": 1708810.0,
+    "gap_usd": 473160.0,
+    "reported_exports_kg": 183050.0,
+    "mirror_imports_kg": 217591.0,
+    "gap_kg": 34541.0,
+    "gap_pct": 18.87,
+    "direction": "mirror_above_reported",
+    "risk": "MEDIUM",
+    "reasons": [
+      "mirror imports are 18.9% above reported exports"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 977940.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 381380.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 241350.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 182180.0
+      },
+      {
+        "country": "Switzerland",
+        "value_usd": 114880.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "France",
+        "value_usd": 873710.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 369630.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 124960.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 124370.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 78390.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/FRA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/FRA/product/282520"
+  },
+  {
+    "country": "Singapore",
+    "reporter_code": "SGP",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 44510.0,
+    "mirror_imports_usd": 499610.0,
+    "gap_usd": 455100.0,
+    "reported_exports_kg": 0.0,
+    "mirror_imports_kg": 47000.0,
+    "gap_kg": 47000.0,
+    "gap_pct": 4700000.0,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Malaysia",
+        "value_usd": 20840.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 14490.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 7210.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 1260.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 550.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Iran, Islamic Rep.",
+        "value_usd": 351190.0
+      },
+      {
+        "country": "Israel",
+        "value_usd": 117000.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 31200.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 220.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SGP/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/SGP/product/282520"
+  },
+  {
+    "country": "Hong Kong, China",
+    "reporter_code": "HKG",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 210.0,
+    "mirror_imports_usd": 727300.0,
+    "gap_usd": 727090.0,
+    "reported_exports_kg": 10.0,
+    "mirror_imports_kg": 80306.0,
+    "gap_kg": 80296.0,
+    "gap_pct": 802960.0,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 210.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 596900.0
+      },
+      {
+        "country": "India",
+        "value_usd": 128880.0
+      },
+      {
+        "country": "Sweden",
+        "value_usd": 1520.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/HKG/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/HKG/product/282520"
+  },
+  {
+    "country": "Australia",
+    "reporter_code": "AUS",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 7750.0,
+    "mirror_imports_usd": 372810.0,
+    "gap_usd": 365060.0,
+    "reported_exports_kg": 161.0,
+    "mirror_imports_kg": 334675.0,
+    "gap_kg": 334514.0,
+    "gap_pct": 207772.67,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Vietnam",
+        "value_usd": 6300.0
+      },
+      {
+        "country": "New Zealand",
+        "value_usd": 1450.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "France",
+        "value_usd": 363930.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 5640.0
+      },
+      {
+        "country": "New Zealand",
+        "value_usd": 3230.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 10.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/AUS/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/AUS/product/282520"
+  },
+  {
+    "country": "Romania",
+    "reporter_code": "ROM",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 391280.0,
+    "mirror_imports_usd": 563330.0,
+    "gap_usd": 172050.0,
+    "reported_exports_kg": 252.0,
+    "mirror_imports_kg": 16343.0,
+    "gap_kg": 16091.0,
+    "gap_pct": 6385.32,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "United States",
+        "value_usd": 391280.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "United States",
+        "value_usd": 467200.0
+      },
+      {
+        "country": "Poland",
+        "value_usd": 95230.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 900.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ROM/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/ROM/product/282520"
+  },
+  {
+    "country": "Ireland",
+    "reporter_code": "IRL",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 0.0,
+    "mirror_imports_usd": 2330.0,
+    "gap_usd": 2330.0,
+    "reported_exports_kg": 0.0,
+    "mirror_imports_kg": 31.0,
+    "gap_kg": 31.0,
+    "gap_pct": 3100.0,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "United States",
+        "value_usd": 0.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Denmark",
+        "value_usd": 2250.0
+      },
+      {
+        "country": "United Kingdom",
+        "value_usd": 80.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/IRL/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/IRL/product/282520"
+  },
+  {
+    "country": "Latvia",
+    "reporter_code": "LVA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 144370.0,
+    "mirror_imports_usd": 1308800.0,
+    "gap_usd": 1164430.0,
+    "reported_exports_kg": 20000.0,
+    "mirror_imports_kg": 220004.0,
+    "gap_kg": 200004.0,
+    "gap_pct": 1000.02,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "France",
+        "value_usd": 144370.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "India",
+        "value_usd": 1308710.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 90.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/LVA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/LVA/product/282520"
+  },
+  {
+    "country": "Japan",
+    "reporter_code": "JPN",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 73660.0,
+    "mirror_imports_usd": 482840.0,
+    "gap_usd": 409180.0,
+    "reported_exports_kg": 5350.0,
+    "mirror_imports_kg": 53539.0,
+    "gap_kg": 48189.0,
+    "gap_pct": 900.73,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "United States",
+        "value_usd": 48220.0
+      },
+      {
+        "country": "Philippines",
+        "value_usd": 13040.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 5520.0
+      },
+      {
+        "country": "Other Asia, nes",
+        "value_usd": 3670.0
+      },
+      {
+        "country": "China",
+        "value_usd": 3220.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "India",
+        "value_usd": 265430.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 88860.0
+      },
+      {
+        "country": "Indonesia",
+        "value_usd": 41520.0
+      },
+      {
+        "country": "Philippines",
+        "value_usd": 35600.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 13740.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/JPN/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/JPN/product/282520"
+  },
+  {
+    "country": "Austria",
+    "reporter_code": "AUT",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 9410.0,
+    "mirror_imports_usd": 9930.0,
+    "gap_usd": 520.0,
+    "reported_exports_kg": 127.0,
+    "mirror_imports_kg": 887.0,
+    "gap_kg": 760.0,
+    "gap_pct": 598.43,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Romania",
+        "value_usd": 4590.0
+      },
+      {
+        "country": "Croatia",
+        "value_usd": 3430.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 540.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 370.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 280.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 4790.0
+      },
+      {
+        "country": "Croatia",
+        "value_usd": 3560.0
+      },
+      {
+        "country": "Switzerland",
+        "value_usd": 960.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 430.0
+      },
+      {
+        "country": "Romania",
+        "value_usd": 190.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/AUT/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/AUT/product/282520"
+  },
+  {
+    "country": "Sweden",
+    "reporter_code": "SWE",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 215630.0,
+    "mirror_imports_usd": 242050.0,
+    "gap_usd": 26420.0,
+    "reported_exports_kg": 1001.0,
+    "mirror_imports_kg": 2772.0,
+    "gap_kg": 1771.0,
+    "gap_pct": 176.92,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "United States",
+        "value_usd": 215410.0
+      },
+      {
+        "country": "Finland",
+        "value_usd": 110.0
+      },
+      {
+        "country": "Norway",
+        "value_usd": 110.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Denmark",
+        "value_usd": 241980.0
+      },
+      {
+        "country": "Finland",
+        "value_usd": 50.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 20.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SWE/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/SWE/product/282520"
+  },
+  {
+    "country": "Greece",
+    "reporter_code": "GRC",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 15050.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 15050.0,
+    "reported_exports_kg": 1475.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 1475.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Turkey",
+        "value_usd": 11690.0
+      },
+      {
+        "country": "Albania",
+        "value_usd": 3360.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/GRC/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/GRC/product/282520"
+  },
+  {
+    "country": "Malaysia",
+    "reporter_code": "MYS",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 4060.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 4060.0,
+    "reported_exports_kg": 400.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 400.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Singapore",
+        "value_usd": 4060.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/MYS/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/MYS/product/282520"
+  },
+  {
+    "country": "Saudi Arabia",
+    "reporter_code": "SAU",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 500.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 500.0,
+    "reported_exports_kg": 56.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 56.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 500.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/SAU/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/SAU/product/282520"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "reporter_code": "TTO",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 80.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 80.0,
+    "reported_exports_kg": 1.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 1.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Guyana",
+        "value_usd": 80.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/TTO/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/TTO/product/282520"
+  },
+  {
+    "country": "Uganda",
+    "reporter_code": "UGA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 9230.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 9230.0,
+    "reported_exports_kg": 15890.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 15890.0,
+    "gap_pct": 100.0,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "South Sudan",
+        "value_usd": 8330.0
+      },
+      {
+        "country": "Congo, Dem. Rep.",
+        "value_usd": 900.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/UGA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/UGA/product/282520"
+  },
+  {
+    "country": "Canada",
+    "reporter_code": "CAN",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 187680.0,
+    "mirror_imports_usd": 54870.0,
+    "gap_usd": 132810.0,
+    "reported_exports_kg": 86082.0,
+    "mirror_imports_kg": 1569.0,
+    "gap_kg": 84513.0,
+    "gap_pct": 98.18,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "France",
+        "value_usd": 88280.0
+      },
+      {
+        "country": "China",
+        "value_usd": 80050.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 14170.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 5140.0
+      },
+      {
+        "country": "Switzerland",
+        "value_usd": 40.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Indonesia",
+        "value_usd": 45310.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 5190.0
+      },
+      {
+        "country": "Israel",
+        "value_usd": 2000.0
+      },
+      {
+        "country": "France",
+        "value_usd": 1570.0
+      },
+      {
+        "country": "Chile",
+        "value_usd": 640.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/CAN/product/282520"
+  },
+  {
+    "country": "New Zealand",
+    "reporter_code": "NZL",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 1960.0,
+    "mirror_imports_usd": 90.0,
+    "gap_usd": 1870.0,
+    "reported_exports_kg": 151.0,
+    "mirror_imports_kg": 10.0,
+    "gap_kg": 141.0,
+    "gap_pct": 93.38,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Fiji",
+        "value_usd": 1960.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Tonga",
+        "value_usd": 90.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/NZL/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/NZL/product/282520"
+  },
+  {
+    "country": "Spain",
+    "reporter_code": "ESP",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 166990.0,
+    "mirror_imports_usd": 81090.0,
+    "gap_usd": 85900.0,
+    "reported_exports_kg": 53726.0,
+    "mirror_imports_kg": 7134.0,
+    "gap_kg": 46592.0,
+    "gap_pct": 86.72,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Algeria",
+        "value_usd": 64190.0
+      },
+      {
+        "country": "Vietnam",
+        "value_usd": 52640.0
+      },
+      {
+        "country": "Portugal",
+        "value_usd": 19350.0
+      },
+      {
+        "country": "Italy",
+        "value_usd": 14950.0
+      },
+      {
+        "country": "Kenya",
+        "value_usd": 9480.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Vietnam",
+        "value_usd": 44000.0
+      },
+      {
+        "country": "Portugal",
+        "value_usd": 18630.0
+      },
+      {
+        "country": "Kenya",
+        "value_usd": 10790.0
+      },
+      {
+        "country": "France",
+        "value_usd": 2180.0
+      },
+      {
+        "country": "Denmark",
+        "value_usd": 1980.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ESP/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/ESP/product/282520"
+  },
+  {
+    "country": "Turkey",
+    "reporter_code": "TUR",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 16630.0,
+    "mirror_imports_usd": 2500.0,
+    "gap_usd": 14130.0,
+    "reported_exports_kg": 1167.0,
+    "mirror_imports_kg": 202.0,
+    "gap_kg": 965.0,
+    "gap_pct": 82.69,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Azerbaijan",
+        "value_usd": 14200.0
+      },
+      {
+        "country": "Bulgaria",
+        "value_usd": 2270.0
+      },
+      {
+        "country": "Kenya",
+        "value_usd": 100.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 50.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Bulgaria",
+        "value_usd": 2390.0
+      },
+      {
+        "country": "Kenya",
+        "value_usd": 110.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/TUR/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/TUR/product/282520"
+  },
+  {
+    "country": "South Africa",
+    "reporter_code": "ZAF",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 53690.0,
+    "mirror_imports_usd": 108940.0,
+    "gap_usd": 55250.0,
+    "reported_exports_kg": 19397.0,
+    "mirror_imports_kg": 5891.0,
+    "gap_kg": 13506.0,
+    "gap_pct": 69.63,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Zambia",
+        "value_usd": 51210.0
+      },
+      {
+        "country": "Botswana",
+        "value_usd": 1360.0
+      },
+      {
+        "country": "Namibia",
+        "value_usd": 860.0
+      },
+      {
+        "country": "Eswatini",
+        "value_usd": 260.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Benin",
+        "value_usd": 58740.0
+      },
+      {
+        "country": "Zambia",
+        "value_usd": 49970.0
+      },
+      {
+        "country": "Eswatini",
+        "value_usd": 230.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ZAF/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/ZAF/product/282520"
+  },
+  {
+    "country": "Italy",
+    "reporter_code": "ITA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 33930.0,
+    "mirror_imports_usd": 9470.0,
+    "gap_usd": 24460.0,
+    "reported_exports_kg": 1070.0,
+    "mirror_imports_kg": 349.0,
+    "gap_kg": 721.0,
+    "gap_pct": 67.38,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "United States",
+        "value_usd": 19570.0
+      },
+      {
+        "country": "Serbia, FR(Serbia/Montenegro)",
+        "value_usd": 6050.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 5280.0
+      },
+      {
+        "country": "France",
+        "value_usd": 2460.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 570.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Serbia, FR(Serbia/Montenegro)",
+        "value_usd": 5880.0
+      },
+      {
+        "country": "France",
+        "value_usd": 2620.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 570.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 400.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ITA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/ITA/product/282520"
+  },
+  {
+    "country": "Korea, Rep.",
+    "reporter_code": "KOR",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 754620.0,
+    "mirror_imports_usd": 158430.0,
+    "gap_usd": 596190.0,
+    "reported_exports_kg": 62885.0,
+    "mirror_imports_kg": 24173.0,
+    "gap_kg": 38712.0,
+    "gap_pct": 61.56,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "China",
+        "value_usd": 454580.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 208500.0
+      },
+      {
+        "country": "Russian Federation",
+        "value_usd": 53580.0
+      },
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 17200.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 11610.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Iran, Islamic Rep.",
+        "value_usd": 106320.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 45010.0
+      },
+      {
+        "country": "China",
+        "value_usd": 5700.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 510.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 430.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/KOR/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/KOR/product/282520"
+  },
+  {
+    "country": "Czech Republic",
+    "reporter_code": "CZE",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 25930.0,
+    "mirror_imports_usd": 14850.0,
+    "gap_usd": 11080.0,
+    "reported_exports_kg": 2900.0,
+    "mirror_imports_kg": 1202.0,
+    "gap_kg": 1698.0,
+    "gap_pct": 58.55,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "South Africa",
+        "value_usd": 11270.0
+      },
+      {
+        "country": "Estonia",
+        "value_usd": 10330.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 2180.0
+      },
+      {
+        "country": "Slovak Republic",
+        "value_usd": 2160.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Kazakhstan",
+        "value_usd": 9750.0
+      },
+      {
+        "country": "South Africa",
+        "value_usd": 5050.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 50.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CZE/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/CZE/product/282520"
+  },
+  {
+    "country": "Poland",
+    "reporter_code": "POL",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 538870.0,
+    "mirror_imports_usd": 338340.0,
+    "gap_usd": 200530.0,
+    "reported_exports_kg": 65280.0,
+    "mirror_imports_kg": 41104.0,
+    "gap_kg": 24176.0,
+    "gap_pct": 37.03,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Germany",
+        "value_usd": 287200.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 96330.0
+      },
+      {
+        "country": "Greece",
+        "value_usd": 90430.0
+      },
+      {
+        "country": "Ukraine",
+        "value_usd": 44430.0
+      },
+      {
+        "country": "Russian Federation",
+        "value_usd": 9280.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Serbia, FR(Serbia/Montenegro)",
+        "value_usd": 100240.0
+      },
+      {
+        "country": "Greece",
+        "value_usd": 73100.0
+      },
+      {
+        "country": "Spain",
+        "value_usd": 58950.0
+      },
+      {
+        "country": "Turkey",
+        "value_usd": 48670.0
+      },
+      {
+        "country": "Hungary",
+        "value_usd": 40330.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/POL/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/POL/product/282520"
+  },
+  {
+    "country": "United States",
+    "reporter_code": "USA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 65888320.0,
+    "mirror_imports_usd": 80922260.0,
+    "gap_usd": 15033940.0,
+    "reported_exports_kg": 5825860.0,
+    "mirror_imports_kg": 6380380.0,
+    "gap_kg": 554520.0,
+    "gap_pct": 9.52,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Japan",
+        "value_usd": 49650080.0
+      },
+      {
+        "country": "Germany",
+        "value_usd": 3401160.0
+      },
+      {
+        "country": "Argentina",
+        "value_usd": 1982920.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 1963670.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 1642760.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Japan",
+        "value_usd": 67482860.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 3737380.0
+      },
+      {
+        "country": "Argentina",
+        "value_usd": 2089520.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 1244740.0
+      },
+      {
+        "country": "Saudi Arabia",
+        "value_usd": 1155140.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/USA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/USA/product/282520"
+  },
+  {
+    "country": "Chile",
+    "reporter_code": "CHL",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 56471400.0,
+    "mirror_imports_usd": 87092040.0,
+    "gap_usd": 30620640.0,
+    "reported_exports_kg": 9329780.0,
+    "mirror_imports_kg": 8754289.0,
+    "gap_kg": 575491.0,
+    "gap_pct": 6.17,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 38805540.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 5309730.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 4041860.0
+      },
+      {
+        "country": "India",
+        "value_usd": 2158540.0
+      },
+      {
+        "country": "Belgium",
+        "value_usd": 1774480.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 63211840.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 6897410.0
+      },
+      {
+        "country": "India",
+        "value_usd": 3431830.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 3404530.0
+      },
+      {
+        "country": "Russian Federation",
+        "value_usd": 2257540.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CHL/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/CHL/product/282520"
+  },
+  {
+    "country": "United Arab Emirates",
+    "reporter_code": "ARE",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 1580240.0,
+    "mirror_imports_usd": 1633930.0,
+    "gap_usd": 53690.0,
+    "reported_exports_kg": 217438.0,
+    "mirror_imports_kg": 225826.0,
+    "gap_kg": 8388.0,
+    "gap_pct": 3.86,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Sudan",
+        "value_usd": 585000.0
+      },
+      {
+        "country": "Iran, Islamic Rep.",
+        "value_usd": 292850.0
+      },
+      {
+        "country": "Saudi Arabia",
+        "value_usd": 204000.0
+      },
+      {
+        "country": "Oman",
+        "value_usd": 153940.0
+      },
+      {
+        "country": "India",
+        "value_usd": 108610.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Iran, Islamic Rep.",
+        "value_usd": 1412080.0
+      },
+      {
+        "country": "India",
+        "value_usd": 108950.0
+      },
+      {
+        "country": "Uganda",
+        "value_usd": 38930.0
+      },
+      {
+        "country": "Tanzania",
+        "value_usd": 32100.0
+      },
+      {
+        "country": "South Africa",
+        "value_usd": 23630.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/ARE/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/ARE/product/282520"
+  },
+  {
+    "country": "Russian Federation",
+    "reporter_code": "RUS",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 67990330.0,
+    "mirror_imports_usd": 61499130.0,
+    "gap_usd": 6491200.0,
+    "reported_exports_kg": 8142090.0,
+    "mirror_imports_kg": 7851646.0,
+    "gap_kg": 290444.0,
+    "gap_pct": 3.57,
+    "direction": "mirror_below_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Belgium",
+        "value_usd": 37498920.0
+      },
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 14578310.0
+      },
+      {
+        "country": "India",
+        "value_usd": 7233410.0
+      },
+      {
+        "country": "United Arab Emirates",
+        "value_usd": 2002000.0
+      },
+      {
+        "country": "Estonia",
+        "value_usd": 1799260.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 15438880.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 7950160.0
+      },
+      {
+        "country": "Netherlands",
+        "value_usd": 6743570.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 6495370.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 4116090.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/RUS/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/RUS/product/282520"
+  },
+  {
+    "country": "China",
+    "reporter_code": "CHN",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 544372720.0,
+    "mirror_imports_usd": 691115480.0,
+    "gap_usd": 146742760.0,
+    "reported_exports_kg": 56593000.0,
+    "mirror_imports_kg": 57075427.0,
+    "gap_kg": 482427.0,
+    "gap_pct": 0.85,
+    "direction": "mirror_above_reported",
+    "risk": "LOW",
+    "reasons": [
+      "reported exports and mirror imports are close"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 293798300.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 234279110.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 2757360.0
+      },
+      {
+        "country": "India",
+        "value_usd": 2575320.0
+      },
+      {
+        "country": "Singapore",
+        "value_usd": 2454140.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Korea, Rep.",
+        "value_usd": 357204900.0
+      },
+      {
+        "country": "Japan",
+        "value_usd": 312858560.0
+      },
+      {
+        "country": "Thailand",
+        "value_usd": 3277590.0
+      },
+      {
+        "country": "Canada",
+        "value_usd": 3202000.0
+      },
+      {
+        "country": "Singapore",
+        "value_usd": 2293770.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/CHN/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/CHN/product/282520"
+  },
+  {
+    "country": "Brazil",
+    "reporter_code": "BRA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 270.0,
+    "mirror_imports_usd": 310.0,
+    "gap_usd": 40.0,
+    "reported_exports_kg": 700.0,
+    "mirror_imports_kg": 700.0,
+    "gap_kg": 0.0,
+    "gap_pct": 0.0,
+    "direction": "match",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Bolivia",
+        "value_usd": 270.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Bolivia",
+        "value_usd": 310.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/BRA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/BRA/product/282520"
+  },
+  {
+    "country": "Lithuania",
+    "reporter_code": "LTU",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 9380.0,
+    "mirror_imports_usd": 0.0,
+    "gap_usd": 9380.0,
+    "reported_exports_kg": 0.0,
+    "mirror_imports_kg": 0.0,
+    "gap_kg": 0.0,
+    "gap_pct": 0.0,
+    "direction": "match",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Poland",
+        "value_usd": 8430.0
+      },
+      {
+        "country": "Estonia",
+        "value_usd": 950.0
+      }
+    ],
+    "top_mirror_importers": [
+      {
+        "country": "Netherlands",
+        "value_usd": 0.0
+      }
+    ],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/LTU/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/LTU/product/282520"
+  },
+  {
+    "country": "Thailand",
+    "reporter_code": "THA",
+    "year": 2020,
+    "product_code": "282520",
+    "product": "Lithium oxide and hydroxide exports by country",
+    "reported_exports_usd": 80340.0,
+    "mirror_imports_usd": 0,
+    "gap_usd": 80340.0,
+    "reported_exports_kg": 0.0,
+    "mirror_imports_kg": 0,
+    "gap_kg": 0.0,
+    "gap_pct": 0.0,
+    "direction": "match",
+    "risk": "LOW",
+    "reasons": [
+      "very small export volume"
+    ],
+    "top_export_partners": [
+      {
+        "country": "Bangladesh",
+        "value_usd": 33030.0
+      },
+      {
+        "country": "United States",
+        "value_usd": 25880.0
+      },
+      {
+        "country": "Hong Kong, China",
+        "value_usd": 12570.0
+      },
+      {
+        "country": "Singapore",
+        "value_usd": 8860.0
+      }
+    ],
+    "top_mirror_importers": [],
+    "export_page": "https://wits.worldbank.org/trade/comtrade/en/country/THA/year/2020/tradeflow/Exports/partner/ALL/product/282520",
+    "mirror_page": "https://wits.worldbank.org/trade/comtrade/en/country/All/year/2020/tradeflow/Imports/partner/THA/product/282520"
+  }
+]

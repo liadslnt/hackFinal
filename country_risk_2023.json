@@ -1,0 +1,1509 @@
+[
+    {
+        "country":  "Austria",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1298516322.89,
+        "total_exports":  309596603.44,
+        "lithium_imports":  7702676.52,
+        "battery_exports":  308316617.11
+    },
+    {
+        "country":  "Belgium",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  3808537445.87,
+        "total_exports":  787913311.63,
+        "lithium_imports":  26103544.75,
+        "battery_exports":  715015088.95
+    },
+    {
+        "country":  "China",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "exports much higher than imports"
+                    ],
+        "total_imports":  8686174212,
+        "total_exports":  65524706129,
+        "lithium_imports":  6329250472,
+        "battery_exports":  65006413903
+    },
+    {
+        "country":  "France",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  2938107354.28,
+        "total_exports":  544572149.75,
+        "lithium_imports":  49616738.67,
+        "battery_exports":  506782019.08
+    },
+    {
+        "country":  "Germany",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  26595960394.66,
+        "total_exports":  6275178115.87,
+        "lithium_imports":  65360129.8,
+        "battery_exports":  6223071986.52
+    },
+    {
+        "country":  "Hungary",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "exports much higher than imports"
+                    ],
+        "total_imports":  1890275346,
+        "total_exports":  10338088851,
+        "lithium_imports":  4634673,
+        "battery_exports":  10337725208
+    },
+    {
+        "country":  "Malaysia",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "exports much higher than imports"
+                    ],
+        "total_imports":  242584188.36,
+        "total_exports":  1410125035.59,
+        "lithium_imports":  3701906.03,
+        "battery_exports":  1409800933.42
+    },
+    {
+        "country":  "Mexico",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  3751396193,
+        "total_exports":  1091869165,
+        "lithium_imports":  0,
+        "battery_exports":  1091869165
+    },
+    {
+        "country":  "Poland",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "exports much higher than imports"
+                    ],
+        "total_imports":  1971972373,
+        "total_exports":  11847786542,
+        "lithium_imports":  3478367,
+        "battery_exports":  11847455835
+    },
+    {
+        "country":  "Slovak Republic",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1438417803.01,
+        "total_exports":  340914621.29,
+        "lithium_imports":  1649331.47,
+        "battery_exports":  340914621.29
+    },
+    {
+        "country":  "USA",
+        "risk":  "HIGH",
+        "reasons":  [
+                        "battery exports high vs lithium imports",
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  19000172007,
+        "total_exports":  3362775097,
+        "lithium_imports":  250584381,
+        "battery_exports":  3253978314
+    },
+    {
+        "country":  "Argentina",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "exports much higher than imports"
+                    ],
+        "total_imports":  143458391.48,
+        "total_exports":  441548540.77,
+        "lithium_imports":  2501010.06,
+        "battery_exports":  248249.18
+    },
+    {
+        "country":  "Australia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1596910740.18,
+        "total_exports":  49090776.36,
+        "lithium_imports":  9042924.46,
+        "battery_exports":  48972853.12
+    },
+    {
+        "country":  "Brazil",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  575700712,
+        "total_exports":  7191874,
+        "lithium_imports":  277557,
+        "battery_exports":  3379658
+    },
+    {
+        "country":  "Cambodia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  11402017.92,
+        "total_exports":  3510,
+        "lithium_imports":  0,
+        "battery_exports":  3510
+    },
+    {
+        "country":  "Canada",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1174904931.65,
+        "total_exports":  144893004.9,
+        "lithium_imports":  22623876.14,
+        "battery_exports":  144828399.04
+    },
+    {
+        "country":  "Chile",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "exports much higher than imports"
+                    ],
+        "total_imports":  61643920.3,
+        "total_exports":  5431344372.97,
+        "lithium_imports":  273510.93,
+        "battery_exports":  1062356.53
+    },
+    {
+        "country":  "Colombia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  53933367.24,
+        "total_exports":  593577.76,
+        "lithium_imports":  740872.99,
+        "battery_exports":  593577.76
+    },
+    {
+        "country":  "Costa Rica",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  12668505.52,
+        "total_exports":  173147.55,
+        "lithium_imports":  80311.49,
+        "battery_exports":  173147.55
+    },
+    {
+        "country":  "Czech Republic",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "battery exports high vs lithium imports"
+                    ],
+        "total_imports":  5223356627,
+        "total_exports":  3431133821,
+        "lithium_imports":  1873393,
+        "battery_exports":  3431112638
+    },
+    {
+        "country":  "Dominican Republic",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  11264358.37,
+        "total_exports":  71773.94,
+        "lithium_imports":  0,
+        "battery_exports":  71773.94
+    },
+    {
+        "country":  "Ecuador",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  10588832.1,
+        "total_exports":  36637.9,
+        "lithium_imports":  14701,
+        "battery_exports":  36637.9
+    },
+    {
+        "country":  "Egypt",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  57413939.39,
+        "total_exports":  24980.26,
+        "lithium_imports":  207626.06,
+        "battery_exports":  24980.26
+    },
+    {
+        "country":  "El Salvador",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  11581763.71,
+        "total_exports":  86795,
+        "lithium_imports":  18.55,
+        "battery_exports":  86795
+    },
+    {
+        "country":  "Ethiopia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  24932357.76,
+        "total_exports":  1136.78,
+        "lithium_imports":  0,
+        "battery_exports":  1136.78
+    },
+    {
+        "country":  "Finland",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "battery exports high vs lithium imports"
+                    ],
+        "total_imports":  959992999.6,
+        "total_exports":  727485802.48,
+        "lithium_imports":  1124656.69,
+        "battery_exports":  727485791.67
+    },
+    {
+        "country":  "Greece",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  47127105.78,
+        "total_exports":  14745940.29,
+        "lithium_imports":  622621.5,
+        "battery_exports":  14745482.91
+    },
+    {
+        "country":  "Guatemala",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  11598706,
+        "total_exports":  163592,
+        "lithium_imports":  31252,
+        "battery_exports":  145227
+    },
+    {
+        "country":  "Hong Kong",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "battery exports high vs lithium imports"
+                    ],
+        "total_imports":  2833084788.5,
+        "total_exports":  3386215484.08,
+        "lithium_imports":  0,
+        "battery_exports":  3386211475.44
+    },
+    {
+        "country":  "India",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  3141895503.9,
+        "total_exports":  146366613.46,
+        "lithium_imports":  30558209.65,
+        "battery_exports":  138139672.88
+    },
+    {
+        "country":  "Indonesia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  414542288,
+        "total_exports":  16040253.72,
+        "lithium_imports":  551003,
+        "battery_exports":  16040253.72
+    },
+    {
+        "country":  "Ireland",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  163618712.64,
+        "total_exports":  34555772.93,
+        "lithium_imports":  16202.81,
+        "battery_exports":  34433177.61
+    },
+    {
+        "country":  "Israel",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  311986158,
+        "total_exports":  17043086,
+        "lithium_imports":  267000,
+        "battery_exports":  17043086
+    },
+    {
+        "country":  "Italy",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  3659525056.73,
+        "total_exports":  249906489.5,
+        "lithium_imports":  27109005.66,
+        "battery_exports":  241166391.96
+    },
+    {
+        "country":  "Jamaica",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  13126108.15,
+        "total_exports":  130884.74,
+        "lithium_imports":  0,
+        "battery_exports":  130884.74
+    },
+    {
+        "country":  "Jordan",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  16581977.09,
+        "total_exports":  756341.43,
+        "lithium_imports":  66368.04,
+        "battery_exports":  756341.43
+    },
+    {
+        "country":  "Kenya",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  23847480.93,
+        "total_exports":  2390695.65,
+        "lithium_imports":  2315.7,
+        "battery_exports":  2390695.65
+    },
+    {
+        "country":  "Kuwait",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  10732102.45,
+        "total_exports":  137653.46,
+        "lithium_imports":  0,
+        "battery_exports":  137653.46
+    },
+    {
+        "country":  "Lebanon",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  53915588,
+        "total_exports":  926038,
+        "lithium_imports":  136,
+        "battery_exports":  926038
+    },
+    {
+        "country":  "Lithuania",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  42605232,
+        "total_exports":  10099675,
+        "lithium_imports":  36557,
+        "battery_exports":  10059222
+    },
+    {
+        "country":  "Morocco",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  13840986.75,
+        "total_exports":  3754824.89,
+        "lithium_imports":  70970.56,
+        "battery_exports":  3754824.89
+    },
+    {
+        "country":  "Myanmar",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  37958387.61,
+        "total_exports":  18562.5,
+        "lithium_imports":  114.28,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Namibia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  11779922.53,
+        "total_exports":  834889.88,
+        "lithium_imports":  168.08,
+        "battery_exports":  780328.05
+    },
+    {
+        "country":  "Netherlands",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "battery exports high vs lithium imports"
+                    ],
+        "total_imports":  2641228131.73,
+        "total_exports":  1539024495.82,
+        "lithium_imports":  165821763.94,
+        "battery_exports":  1397703823.6
+    },
+    {
+        "country":  "New Zealand",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  82021372.89,
+        "total_exports":  5762195.24,
+        "lithium_imports":  979060.35,
+        "battery_exports":  5759638.36
+    },
+    {
+        "country":  "Nigeria",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  54060383.34,
+        "total_exports":  5166267.93,
+        "lithium_imports":  0,
+        "battery_exports":  5166267.93
+    },
+    {
+        "country":  "North Macedonia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  15724083.82,
+        "total_exports":  1172060.34,
+        "lithium_imports":  72.72,
+        "battery_exports":  1172060.34
+    },
+    {
+        "country":  "Pakistan",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  40324570.29,
+        "total_exports":  66668.18,
+        "lithium_imports":  10148.12,
+        "battery_exports":  66668.18
+    },
+    {
+        "country":  "Peru",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  68880692.21,
+        "total_exports":  216058.45,
+        "lithium_imports":  81201.62,
+        "battery_exports":  216058.45
+    },
+    {
+        "country":  "Philippines",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  197522289,
+        "total_exports":  3861188,
+        "lithium_imports":  24829,
+        "battery_exports":  3861188
+    },
+    {
+        "country":  "Portugal",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  141112119.29,
+        "total_exports":  14904575.37,
+        "lithium_imports":  846437.62,
+        "battery_exports":  14902890.75
+    },
+    {
+        "country":  "Qatar",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  10091472.82,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Saudi Arabia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  296843870.44,
+        "total_exports":  7180986.75,
+        "lithium_imports":  158703.73,
+        "battery_exports":  7180986.75
+    },
+    {
+        "country":  "Singapore",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "battery exports high vs lithium imports"
+                    ],
+        "total_imports":  279891248.93,
+        "total_exports":  608999960.52,
+        "lithium_imports":  991326.37,
+        "battery_exports":  608187457
+    },
+    {
+        "country":  "Slovenia",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  146842943.74,
+        "total_exports":  38841619.58,
+        "lithium_imports":  1306936.38,
+        "battery_exports":  36044949.69
+    },
+    {
+        "country":  "South Africa",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1754579291.5,
+        "total_exports":  56073741.42,
+        "lithium_imports":  499606.34,
+        "battery_exports":  56068701.21
+    },
+    {
+        "country":  "Spain",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  2875382316.55,
+        "total_exports":  199296827.25,
+        "lithium_imports":  20978076.94,
+        "battery_exports":  188267998.07
+    },
+    {
+        "country":  "Sweden",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1508529970.55,
+        "total_exports":  249312221.72,
+        "lithium_imports":  4120766.58,
+        "battery_exports":  248588575.83
+    },
+    {
+        "country":  "Tanzania",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  10643046.63,
+        "total_exports":  152964.47,
+        "lithium_imports":  192.13,
+        "battery_exports":  152944.18
+    },
+    {
+        "country":  "Thailand",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  479040090.04,
+        "total_exports":  11352324.15,
+        "lithium_imports":  1062886.78,
+        "battery_exports":  11152283.23
+    },
+    {
+        "country":  "Turkey",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  1119987769,
+        "total_exports":  47720678,
+        "lithium_imports":  0,
+        "battery_exports":  47693337
+    },
+    {
+        "country":  "Uganda",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  23341063.31,
+        "total_exports":  117934.49,
+        "lithium_imports":  0,
+        "battery_exports":  117934.49
+    },
+    {
+        "country":  "Ukraine",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  310197129.49,
+        "total_exports":  2034617.58,
+        "lithium_imports":  112360.62,
+        "battery_exports":  2034617.58
+    },
+    {
+        "country":  "United Kingdom",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  3355577463.24,
+        "total_exports":  378216827.41,
+        "lithium_imports":  107203980.64,
+        "battery_exports":  289892469.32
+    },
+    {
+        "country":  "Zimbabwe",
+        "risk":  "MEDIUM",
+        "reasons":  [
+                        "imports much higher than exports"
+                    ],
+        "total_imports":  31625326.45,
+        "total_exports":  143135.33,
+        "lithium_imports":  2704.79,
+        "battery_exports":  143124.35
+    },
+    {
+        "country":  "Albania",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1336275.82,
+        "total_exports":  9804.02,
+        "lithium_imports":  0,
+        "battery_exports":  9804.02
+    },
+    {
+        "country":  "Andorra",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  475960.32,
+        "total_exports":  48751.1,
+        "lithium_imports":  0,
+        "battery_exports":  48751.1
+    },
+    {
+        "country":  "Angola",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  4322347.35,
+        "total_exports":  10031.23,
+        "lithium_imports":  0,
+        "battery_exports":  10031.23
+    },
+    {
+        "country":  "Armenia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2615262.92,
+        "total_exports":  274715.68,
+        "lithium_imports":  0,
+        "battery_exports":  274715.68
+    },
+    {
+        "country":  "Aruba",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  290325.14,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Azerbaijan",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5031618.2,
+        "total_exports":  180675.55,
+        "lithium_imports":  24858,
+        "battery_exports":  180675.55
+    },
+    {
+        "country":  "Bahrain",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  4407873.83,
+        "total_exports":  279078.7,
+        "lithium_imports":  433.17,
+        "battery_exports":  279078.7
+    },
+    {
+        "country":  "Barbados",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1050381.5,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Benin",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3540518.07,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Bolivia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  7520457,
+        "total_exports":  14698104.88,
+        "lithium_imports":  1,
+        "battery_exports":  48175.88
+    },
+    {
+        "country":  "Bosnia and Herzegovina",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3403242.34,
+        "total_exports":  34181.44,
+        "lithium_imports":  2639.87,
+        "battery_exports":  34181.44
+    },
+    {
+        "country":  "Botswana",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5017761.94,
+        "total_exports":  41965.52,
+        "lithium_imports":  0,
+        "battery_exports":  41965.52
+    },
+    {
+        "country":  "Brunei",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3839626.44,
+        "total_exports":  10033.5,
+        "lithium_imports":  2.98,
+        "battery_exports":  10033.5
+    },
+    {
+        "country":  "Bulgaria",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  241847973.83,
+        "total_exports":  157628374.99,
+        "lithium_imports":  132172.69,
+        "battery_exports":  157628367.81
+    },
+    {
+        "country":  "Burkina Faso",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2049568.17,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Cabo Verde",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  95660.67,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Central African Republic",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5660855.7,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "China, Macao SAR",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2253907.83,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Côte d`Ivoire",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  9893710.67,
+        "total_exports":  155721.52,
+        "lithium_imports":  0,
+        "battery_exports":  154897.25
+    },
+    {
+        "country":  "Croatia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  70536793,
+        "total_exports":  35249121,
+        "lithium_imports":  220633,
+        "battery_exports":  35193055
+    },
+    {
+        "country":  "Cyprus",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3888472.27,
+        "total_exports":  267048.48,
+        "lithium_imports":  0,
+        "battery_exports":  267048.48
+    },
+    {
+        "country":  "Denmark",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  184965817.16,
+        "total_exports":  71257753.82,
+        "lithium_imports":  2833385.46,
+        "battery_exports":  70352713.19
+    },
+    {
+        "country":  "Dominica",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  155798.36,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Estonia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  32543339.97,
+        "total_exports":  24423857.15,
+        "lithium_imports":  75643.43,
+        "battery_exports":  24420062.32
+    },
+    {
+        "country":  "Fiji",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2427633.55,
+        "total_exports":  13390.37,
+        "lithium_imports":  0,
+        "battery_exports":  13390.37
+    },
+    {
+        "country":  "French Polynesia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2254860.58,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Gabon",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1026548.59,
+        "total_exports":  140523.32,
+        "lithium_imports":  0,
+        "battery_exports":  140523.32
+    },
+    {
+        "country":  "Gambia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  19640.84,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Georgia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3484789.54,
+        "total_exports":  175399.82,
+        "lithium_imports":  0,
+        "battery_exports":  175399.82
+    },
+    {
+        "country":  "Ghana",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  4802551.3,
+        "total_exports":  54203.16,
+        "lithium_imports":  739.48,
+        "battery_exports":  54203.16
+    },
+    {
+        "country":  "Guyana",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1180963.44,
+        "total_exports":  10868.18,
+        "lithium_imports":  0,
+        "battery_exports":  10868.18
+    },
+    {
+        "country":  "Honduras",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  8910601.81,
+        "total_exports":  4271.84,
+        "lithium_imports":  0,
+        "battery_exports":  4271.84
+    },
+    {
+        "country":  "Iceland",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5943196.85,
+        "total_exports":  1199346.07,
+        "lithium_imports":  98944.16,
+        "battery_exports":  1199346.07
+    },
+    {
+        "country":  "Japan",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3968495206.19,
+        "total_exports":  3070043201.91,
+        "lithium_imports":  1048237709.96,
+        "battery_exports":  3068542923.64
+    },
+    {
+        "country":  "Kazakhstan",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  30736494.87,
+        "total_exports":  11438507.3,
+        "lithium_imports":  33995.6,
+        "battery_exports":  11438507.3
+    },
+    {
+        "country":  "Kyrgyz Republic",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  4364495,
+        "total_exports":  4332101,
+        "lithium_imports":  0,
+        "battery_exports":  4332101
+    },
+    {
+        "country":  "Latvia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  30754597.97,
+        "total_exports":  14453559.85,
+        "lithium_imports":  18974.1,
+        "battery_exports":  14449083.4
+    },
+    {
+        "country":  "Lesotho",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1856088.91,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Luxembourg",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  31019009.86,
+        "total_exports":  24942693.32,
+        "lithium_imports":  2675.87,
+        "battery_exports":  24942693.32
+    },
+    {
+        "country":  "Madagascar",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  9601917.09,
+        "total_exports":  0,
+        "lithium_imports":  1843.6,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Malawi",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2175362.46,
+        "total_exports":  93651.41,
+        "lithium_imports":  0,
+        "battery_exports":  93651.41
+    },
+    {
+        "country":  "Maldives",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1226252.74,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Malta",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  2555636.77,
+        "total_exports":  717565.54,
+        "lithium_imports":  192.47,
+        "battery_exports":  717565.54
+    },
+    {
+        "country":  "Mauritania",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  6994646.53,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Mauritius",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  7104132.11,
+        "total_exports":  162568.99,
+        "lithium_imports":  0,
+        "battery_exports":  162568.99
+    },
+    {
+        "country":  "Moldova",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3333648,
+        "total_exports":  351665,
+        "lithium_imports":  48,
+        "battery_exports":  351665
+    },
+    {
+        "country":  "Montenegro",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  775201.39,
+        "total_exports":  6299.39,
+        "lithium_imports":  0,
+        "battery_exports":  6299.39
+    },
+    {
+        "country":  "Montserrat",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  24942.72,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Mozambique",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3068000,
+        "total_exports":  492000,
+        "lithium_imports":  0,
+        "battery_exports":  17000
+    },
+    {
+        "country":  "Nicaragua",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5101739.56,
+        "total_exports":  8822.39,
+        "lithium_imports":  0,
+        "battery_exports":  8822.39
+    },
+    {
+        "country":  "Niger",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  933253.8,
+        "total_exports":  6135.28,
+        "lithium_imports":  0,
+        "battery_exports":  6135.28
+    },
+    {
+        "country":  "Norway",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  209250879.47,
+        "total_exports":  84192000.19,
+        "lithium_imports":  3033347.64,
+        "battery_exports":  84191111.23
+    },
+    {
+        "country":  "Oman",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  8605292.57,
+        "total_exports":  204650.2,
+        "lithium_imports":  39.01,
+        "battery_exports":  204650.2
+    },
+    {
+        "country":  "Panama",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  6314032,
+        "total_exports":  0,
+        "lithium_imports":  18900,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Paraguay",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5582513.16,
+        "total_exports":  162983.28,
+        "lithium_imports":  22658.82,
+        "battery_exports":  162983.28
+    },
+    {
+        "country":  "Romania",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  274685675.41,
+        "total_exports":  131023938.97,
+        "lithium_imports":  328154.97,
+        "battery_exports":  131023240.1
+    },
+    {
+        "country":  "Saint Vincent and the Grenadines",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  45363.66,
+        "total_exports":  0,
+        "lithium_imports":  381.99,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Samoa",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  32353.94,
+        "total_exports":  0,
+        "lithium_imports":  0,
+        "battery_exports":  0
+    },
+    {
+        "country":  "Senegal",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  1885887.77,
+        "total_exports":  3608328.52,
+        "lithium_imports":  0,
+        "battery_exports":  3608328.52
+    },
+    {
+        "country":  "Serbia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  8770458,
+        "total_exports":  2208353,
+        "lithium_imports":  107090,
+        "battery_exports":  2208226
+    },
+    {
+        "country":  "Seychelles",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3456000.25,
+        "total_exports":  807.02,
+        "lithium_imports":  0,
+        "battery_exports":  807.02
+    },
+    {
+        "country":  "Sri Lanka",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  9749793.12,
+        "total_exports":  54181.86,
+        "lithium_imports":  202214.14,
+        "battery_exports":  54181.86
+    },
+    {
+        "country":  "Swaziland",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  794213.01,
+        "total_exports":  299.5,
+        "lithium_imports":  0,
+        "battery_exports":  299.5
+    },
+    {
+        "country":  "Switzerland",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  453738929.89,
+        "total_exports":  171239341.15,
+        "lithium_imports":  2484455.49,
+        "battery_exports":  170777319.33
+    },
+    {
+        "country":  "The Bahamas",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3566186,
+        "total_exports":  824,
+        "lithium_imports":  0,
+        "battery_exports":  824
+    },
+    {
+        "country":  "Togo",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  9160645.18,
+        "total_exports":  39397.19,
+        "lithium_imports":  0,
+        "battery_exports":  39397.19
+    },
+    {
+        "country":  "Tunisia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  3991633.22,
+        "total_exports":  133334.45,
+        "lithium_imports":  89.68,
+        "battery_exports":  133334.45
+    },
+    {
+        "country":  "United Arab Emirates",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  200949588.96,
+        "total_exports":  130755578.74,
+        "lithium_imports":  1130216.02,
+        "battery_exports":  130551947.1
+    },
+    {
+        "country":  "Uruguay",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5787229.19,
+        "total_exports":  19646,
+        "lithium_imports":  189394.98,
+        "battery_exports":  19646
+    },
+    {
+        "country":  "Uzbekistan",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  7705332.91,
+        "total_exports":  460988,
+        "lithium_imports":  131,
+        "battery_exports":  460988
+    },
+    {
+        "country":  "Zambia",
+        "risk":  "LOW",
+        "reasons":  [
+
+                    ],
+        "total_imports":  5199950.88,
+        "total_exports":  275222.39,
+        "lithium_imports":  95.01,
+        "battery_exports":  275222.39
+    }
+]
