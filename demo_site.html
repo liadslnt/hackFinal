@@ -1,0 +1,1150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OriginTrace | Lithium Supply Chain Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #07111f;
+      --navy: #0a1829;
+      --navy-2: #11263d;
+      --sand: #f4ead9;
+      --paper: #fffaf1;
+      --muted: #7a8494;
+      --copper: #d97732;
+      --teal: #25b7a5;
+      --red: #c6403a;
+      --amber: #f1b95d;
+      --green: #43c38b;
+      --line: rgba(255,255,255,.14);
+      --dark-line: rgba(7,17,31,.10);
+      --shadow: 0 30px 90px rgba(7,17,31,.22);
+      --soft-shadow: 0 18px 45px rgba(7,17,31,.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--navy);
+    }
+
+    body {
+      margin: 0;
+      font-family: Manrope, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 2%, rgba(217,119,50,.22), transparent 26%),
+        radial-gradient(circle at 90% 0%, rgba(37,183,165,.18), transparent 24%),
+        linear-gradient(180deg, #091522 0%, #0d2034 38%, #f1e4d0 38%, #efe1cc 100%);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,.9), transparent 72%);
+      z-index: 0;
+    }
+
+    .shell {
+      width: min(1180px, calc(100vw - 38px));
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 0;
+      color: white;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+      letter-spacing: -.03em;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 22px;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 12px;
+      background:
+        radial-gradient(circle at 70% 30%, #ffe2a9, transparent 22%),
+        linear-gradient(135deg, var(--teal), var(--copper));
+      box-shadow: 0 0 38px rgba(37,183,165,.28);
+    }
+
+    .nav-pills {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-pills span {
+      border: 1px solid rgba(255,255,255,.16);
+      color: rgba(255,255,255,.78);
+      padding: 9px 13px;
+      border-radius: 999px;
+      font-size: 13px;
+      background: rgba(255,255,255,.06);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero {
+      min-height: 650px;
+      display: grid;
+      grid-template-columns: 1.02fr .98fr;
+      gap: 34px;
+      align-items: center;
+      color: var(--paper);
+      padding: 36px 0 78px;
+    }
+
+    .kicker {
+      display: inline-flex;
+      gap: 8px;
+      align-items: center;
+      padding: 9px 13px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.16);
+      background: rgba(255,255,255,.07);
+      color: rgba(255,255,255,.82);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      backdrop-filter: blur(12px);
+    }
+
+    .kicker::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 22px var(--green);
+    }
+
+    h1 {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(54px, 7vw, 92px);
+      line-height: .9;
+      letter-spacing: -.075em;
+      margin: 24px 0 20px;
+      max-width: 780px;
+    }
+
+    .hero-copy {
+      max-width: 660px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: rgba(255,250,241,.78);
+      margin-bottom: 28px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 20px;
+      border-radius: 999px;
+      font-weight: 900;
+      text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+      cursor: pointer;
+      border: 0;
+      font-family: Manrope, sans-serif;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      color: #0a1829;
+      background: linear-gradient(135deg, #ffe2a9, #d97732);
+      box-shadow: 0 18px 42px rgba(217,119,50,.28);
+    }
+
+    .btn-secondary {
+      color: var(--paper);
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.18);
+      backdrop-filter: blur(12px);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 24px 55px rgba(217,119,50,.25);
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 520px;
+    }
+
+    .planet-card {
+      position: absolute;
+      inset: 10px 0 auto auto;
+      width: min(520px, 100%);
+      min-height: 500px;
+      border-radius: 42px;
+      padding: 26px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 52% 45%, rgba(37,183,165,.20), transparent 36%),
+        linear-gradient(145deg, rgba(255,255,255,.10), rgba(255,255,255,.035));
+      border: 1px solid rgba(255,255,255,.16);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .planet {
+      position: absolute;
+      width: 310px;
+      height: 310px;
+      left: 50%;
+      top: 46px;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 38% 26%, rgba(255,255,255,.34), transparent 10%),
+        radial-gradient(circle at 62% 64%, rgba(78,160,95,.95), transparent 13%),
+        radial-gradient(circle at 40% 70%, rgba(224,179,103,.92), transparent 15%),
+        radial-gradient(circle at 28% 48%, rgba(61,154,193,.98), transparent 24%),
+        linear-gradient(135deg, #1f8fc3, #0b3151 70%);
+      box-shadow: inset -42px -52px 72px rgba(0,0,0,.42), 0 0 88px rgba(37,183,165,.26);
+      animation: float 5.5s ease-in-out infinite;
+    }
+
+    .orbit {
+      position: absolute;
+      inset: 26px;
+      border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.16);
+      transform: rotate(-18deg);
+    }
+
+    .beam {
+      position: absolute;
+      width: 420px;
+      height: 2px;
+      top: 280px;
+      left: 50px;
+      background: linear-gradient(90deg, transparent, rgba(255,219,152,.95), transparent);
+      box-shadow: 0 0 26px rgba(255,219,152,.7);
+      transform: rotate(14deg);
+    }
+
+    .target-card {
+      position: absolute;
+      left: 30px;
+      right: 30px;
+      bottom: 30px;
+      padding: 18px;
+      border-radius: 26px;
+      background: rgba(10,24,41,.72);
+      border: 1px solid rgba(255,255,255,.16);
+      backdrop-filter: blur(16px);
+    }
+
+    .target-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .tiny-stat {
+      padding: 12px;
+      border-radius: 18px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.10);
+    }
+
+    .tiny-stat strong {
+      display: block;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 22px;
+      letter-spacing: -.04em;
+      color: white;
+    }
+
+    .tiny-stat span {
+      font-size: 12px;
+      color: rgba(255,255,255,.62);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .section {
+      padding: 34px 0;
+    }
+
+    .panel {
+      border-radius: 34px;
+      background: rgba(255,250,241,.78);
+      border: 1px solid rgba(7,17,31,.10);
+      box-shadow: var(--soft-shadow);
+      backdrop-filter: blur(18px);
+      overflow: hidden;
+    }
+
+    .panel-header {
+      padding: 26px 28px 18px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      border-bottom: 1px solid rgba(7,17,31,.08);
+    }
+
+    .section-title {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(30px, 4vw, 50px);
+      line-height: 1;
+      letter-spacing: -.06em;
+      margin: 0;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      line-height: 1.65;
+      max-width: 620px;
+      margin: 10px 0 0;
+    }
+
+    .risk-badge {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      background: linear-gradient(135deg, #c6403a, #7f1e1a);
+      border-radius: 999px;
+      padding: 12px 16px;
+      font-weight: 900;
+      box-shadow: 0 14px 32px rgba(198,64,58,.23);
+    }
+
+    .risk-badge::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ffb4aa;
+      box-shadow: 0 0 22px #ffb4aa;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      padding: 22px 28px 28px;
+    }
+
+    .metric {
+      border-radius: 24px;
+      padding: 18px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.56));
+      border: 1px solid rgba(7,17,31,.08);
+      box-shadow: 0 12px 30px rgba(7,17,31,.08);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .metric::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 4px;
+      background: linear-gradient(90deg, var(--copper), var(--teal));
+      opacity: .9;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 12px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .metric strong {
+      display: block;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(24px, 2.7vw, 36px);
+      line-height: 1;
+      letter-spacing: -.06em;
+    }
+
+    .metric small {
+      display: block;
+      color: var(--muted);
+      margin-top: 10px;
+      line-height: 1.45;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      padding: 0 28px 28px;
+    }
+
+    .story-card {
+      padding: 22px;
+      border-radius: 26px;
+      background: rgba(255,255,255,.62);
+      border: 1px solid rgba(7,17,31,.08);
+    }
+
+    .story-card h3 {
+      margin: 0 0 10px;
+      font-family: "Space Grotesk", sans-serif;
+      letter-spacing: -.04em;
+      font-size: 25px;
+    }
+
+    .story-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .visual-grid {
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      gap: 18px;
+      padding: 28px;
+    }
+
+    .image-frame {
+      border-radius: 30px;
+      overflow: hidden;
+      background: #0d1c2e;
+      border: 1px solid rgba(7,17,31,.10);
+      box-shadow: var(--soft-shadow);
+      min-height: 360px;
+      position: relative;
+    }
+
+    .image-frame img {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      display: block;
+      object-fit: cover;
+    }
+
+    .image-label {
+      position: absolute;
+      left: 18px;
+      top: 18px;
+      padding: 10px 13px;
+      border-radius: 999px;
+      background: rgba(7,17,31,.72);
+      color: white;
+      font-weight: 900;
+      font-size: 13px;
+      backdrop-filter: blur(12px);
+    }
+
+    .evidence-card {
+      padding: 24px;
+      border-radius: 30px;
+      background:
+        radial-gradient(circle at 100% 0%, rgba(37,183,165,.16), transparent 32%),
+        linear-gradient(180deg, rgba(255,255,255,.95), rgba(255,255,255,.65));
+      border: 1px solid rgba(7,17,31,.10);
+      box-shadow: var(--soft-shadow);
+    }
+
+    .asset-name {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 30px;
+      line-height: 1;
+      letter-spacing: -.06em;
+      margin: 0 0 12px;
+    }
+
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 18px 0;
+    }
+
+    .pill {
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: rgba(217,119,50,.12);
+      color: #7c3d17;
+      border: 1px solid rgba(217,119,50,.20);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    .match-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .match-box {
+      padding: 16px;
+      border-radius: 22px;
+      background: rgba(7,17,31,.045);
+      border: 1px solid rgba(7,17,31,.08);
+    }
+
+    .match-box strong {
+      display: block;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 26px;
+      letter-spacing: -.05em;
+    }
+
+    .match-box span {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .workflow {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      padding: 28px;
+    }
+
+    .step {
+      position: relative;
+      border-radius: 28px;
+      padding: 22px;
+      min-height: 230px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.90), rgba(255,255,255,.58));
+      border: 1px solid rgba(7,17,31,.10);
+      box-shadow: var(--soft-shadow);
+      overflow: hidden;
+    }
+
+    .timelapse-stage {
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 18px;
+    }
+
+    .compare-shell {
+      position: relative;
+      min-height: 520px;
+      border-radius: 34px;
+      overflow: hidden;
+      background: #07111f;
+      border: 1px solid rgba(7,17,31,.12);
+      box-shadow: var(--soft-shadow);
+    }
+
+    .compare-shell img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity .45s ease, transform .45s ease;
+    }
+
+    .compare-shell img:not(.active) {
+      opacity: 0;
+      transform: scale(1.03);
+    }
+
+    .compare-shell img.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .scan-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(180deg, transparent 0%, rgba(7,17,31,.28) 100%),
+        linear-gradient(90deg, rgba(37,183,165,.0), rgba(37,183,165,.28), rgba(37,183,165,.0));
+      mix-blend-mode: screen;
+      animation: scanMove 3.8s ease-in-out infinite;
+    }
+
+    .compare-meta {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      color: white;
+      z-index: 3;
+    }
+
+    .compare-meta h3 {
+      margin: 0 0 6px;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 34px;
+      line-height: .95;
+      letter-spacing: -.06em;
+    }
+
+    .compare-meta p {
+      margin: 0;
+      max-width: 520px;
+      color: rgba(255,255,255,.72);
+      line-height: 1.55;
+    }
+
+    .frame-controls {
+      display: grid;
+      gap: 10px;
+    }
+
+    .frame-btn {
+      border: 1px solid rgba(7,17,31,.10);
+      border-radius: 22px;
+      padding: 18px;
+      text-align: left;
+      background: rgba(255,255,255,.62);
+      cursor: pointer;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+      font-family: Manrope, sans-serif;
+    }
+
+    .frame-btn:hover,
+    .frame-btn.active {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,.94);
+      box-shadow: var(--soft-shadow);
+    }
+
+    .frame-btn span {
+      display: block;
+      color: var(--copper);
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 12px;
+      letter-spacing: .08em;
+      margin-bottom: 6px;
+    }
+
+    .frame-btn strong {
+      display: block;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 24px;
+      letter-spacing: -.05em;
+      margin-bottom: 6px;
+    }
+
+    .frame-btn small {
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 13px;
+    }
+
+    .method-note {
+      margin-top: 16px;
+      padding: 18px;
+      border-radius: 24px;
+      background: rgba(7,17,31,.055);
+      border: 1px solid rgba(7,17,31,.08);
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .step-number {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      color: white;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--navy-2), var(--copper));
+      box-shadow: 0 14px 30px rgba(7,17,31,.18);
+      margin-bottom: 24px;
+    }
+
+    .step h3 {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 25px;
+      line-height: 1;
+      letter-spacing: -.05em;
+      margin: 0 0 12px;
+    }
+
+    .step p {
+      margin: 0;
+      line-height: 1.65;
+      color: var(--muted);
+    }
+
+    .footer-cta {
+      margin: 34px 0 60px;
+      color: white;
+      border-radius: 36px;
+      padding: 34px;
+      background:
+        radial-gradient(circle at 88% 15%, rgba(217,119,50,.22), transparent 22%),
+        linear-gradient(135deg, #0a1829, #12283f);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,.12);
+    }
+
+    .footer-cta h2 {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(34px, 5vw, 62px);
+      line-height: .95;
+      letter-spacing: -.07em;
+      margin: 0 0 14px;
+    }
+
+    .footer-cta p {
+      max-width: 760px;
+      color: rgba(255,255,255,.74);
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      animation: reveal .8s ease forwards;
+    }
+
+    .delay-1 { animation-delay: .12s; }
+    .delay-2 { animation-delay: .22s; }
+    .delay-3 { animation-delay: .32s; }
+
+    @keyframes float {
+      0%, 100% { transform: translateX(-50%) translateY(0) rotate(-4deg); }
+      50% { transform: translateX(-50%) translateY(-12px) rotate(1deg); }
+    }
+
+    @keyframes reveal {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes scanMove {
+      0%, 100% { transform: translateX(-40%); opacity: .22; }
+      50% { transform: translateX(40%); opacity: .42; }
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .visual-grid,
+      .timelapse-stage,
+      .story-grid,
+      .workflow {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 18px;
+      }
+
+      .hero-visual {
+        min-height: 460px;
+      }
+
+      .metric-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .panel-header {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .metric-grid,
+      .match-row,
+      .target-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        align-items: flex-start;
+        gap: 16px;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        OriginTrace
+      </div>
+      <div class="nav-pills">
+        <span>Trade intelligence</span>
+        <span>Satellite evidence</span>
+        <span>Ground truth</span>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="reveal">
+        <div class="kicker">Critical minerals verification</div>
+        <h1>Where trade claims meet ground truth.</h1>
+        <p class="hero-copy">
+          OriginTrace detects suspicious lithium trade patterns, then tests the story against real-world signals:
+          satellite imagery, production disclosures, industrial inputs, trucking routes, and hiring activity.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#case">Explore Argentina case</a>
+          <a class="btn btn-secondary" href="#ground">View satellite evidence</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="planet-card">
+          <div class="planet"></div>
+          <div class="orbit"></div>
+          <div class="beam"></div>
+          <div class="target-card">
+            <div class="kicker">Live investigation target</div>
+            <div class="target-grid">
+              <div class="tiny-stat">
+                <strong>Argentina</strong>
+                <span>country</span>
+              </div>
+              <div class="tiny-stat">
+                <strong>283691</strong>
+                <span>HS code</span>
+              </div>
+              <div class="tiny-stat">
+                <strong>2024</strong>
+                <span>period</span>
+              </div>
+              <div class="tiny-stat">
+                <strong>HIGH</strong>
+                <span>risk</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal delay-2" id="case">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="section-title">Argentina lithium carbonate, 2024</h2>
+            <p class="section-subtitle">
+              The platform compares Argentina's declared exports with the imports reported by the rest of the world.
+              The gap is large enough to become an investigation lead, not a verdict.
+            </p>
+          </div>
+          <div class="risk-badge">HIGH RISK SIGNAL</div>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric">
+            <span>reported exports</span>
+            <strong>47.6M kg</strong>
+            <small>Declared by Argentina under HS 283691.</small>
+          </div>
+          <div class="metric">
+            <span>mirror imports</span>
+            <strong>64.8M kg</strong>
+            <small>Reported by partner countries from Argentina.</small>
+          </div>
+          <div class="metric">
+            <span>unresolved gap</span>
+            <strong>17.2M kg</strong>
+            <small>Physical discrepancy between the two views.</small>
+          </div>
+          <div class="metric">
+            <span>relative gap</span>
+            <strong>36.19%</strong>
+            <small>Large enough to prioritize investigation.</small>
+          </div>
+        </div>
+
+        <div class="story-grid">
+          <div class="story-card">
+            <h3>What the trade data says</h3>
+            <p>
+              The rest of the world reports receiving substantially more lithium carbonate from Argentina
+              than Argentina reports exporting. That mismatch is the first measurable signal.
+            </p>
+          </div>
+          <div class="story-card">
+            <h3>What we test next</h3>
+            <p>
+              We add operational evidence: satellite footprint, published production, industrial inputs,
+              and eventually trucking and hiring signals to test whether the ground supports the paperwork.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal delay-3">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="section-title">Mirror trade timeline</h2>
+            <p class="section-subtitle">
+              Quarterly view of Argentina's reported exports versus mirror imports from partner countries.
+            </p>
+          </div>
+        </div>
+        <div class="visual-grid" style="grid-template-columns: 1fr;">
+          <div class="image-frame">
+            <div class="image-label">Trade anomaly over time</div>
+            <img src="argentina_mirror_trade_quarterly_2024.png" alt="Argentina quarterly mirror trade chart">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="ground">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="section-title">From anomaly to asset-level evidence</h2>
+            <p class="section-subtitle">
+              The question is not only “is there a gap?” It is whether known assets and operational signals
+              can explain the trade story.
+            </p>
+          </div>
+          <div class="risk-badge" style="background: linear-gradient(135deg, #1e9b87, #0b4d48);">PARTIAL MATCH</div>
+        </div>
+
+        <div class="visual-grid">
+          <div class="image-frame">
+            <div class="image-label">NASA satellite view · Jujuy, Argentina</div>
+            <img src="cauchari_olaroz_nasa_2024.jpg" alt="NASA satellite image of lithium evaporation ponds in Argentina">
+          </div>
+
+          <div class="evidence-card">
+            <h3 class="asset-name">Cauchari-Olaroz | Minera Exar</h3>
+            <p class="section-subtitle">
+              Public operator data reports approximately <strong>25.4M kg</strong> of lithium carbonate production
+              in 2024. The satellite image shows the industrial footprint behind part of Argentina's export story.
+            </p>
+            <div class="pills">
+              <span class="pill">Satellite footprint visible</span>
+              <span class="pill">Production published</span>
+              <span class="pill">Gap unresolved</span>
+            </div>
+
+            <div class="match-row">
+              <div class="match-box">
+                <strong>53.3%</strong>
+                <span>of Argentina's reported exports can be contextualized by this one published asset.</span>
+              </div>
+              <div class="match-box">
+                <strong>39.2%</strong>
+                <span>of world mirror imports can be contextualized by this same asset.</span>
+              </div>
+            </div>
+
+            <div class="story-card" style="margin-top: 16px;">
+              <h3>Interpretation</h3>
+              <p>
+                The asset evidence makes industrial growth plausible. It does not fully reconcile the mirror-trade gap.
+                That is exactly why OriginTrace turns anomalies into investigation workflows.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="section-title">How we scale the verification layer</h2>
+            <p class="section-subtitle">
+              The demo is manual and focused. The platform vision is automated and global.
+            </p>
+          </div>
+        </div>
+
+        <div class="workflow">
+          <div class="step">
+            <div class="step-number">01</div>
+            <h3>Detect suspicious trade</h3>
+            <p>Use mirror trade data to flag countries, products, and years where the paper trail stops matching.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <h3>Verify on the ground</h3>
+            <p>Use satellite imagery, asset production, sodium inputs, truck movement, and hiring signals as evidence layers.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <h3>Prioritize investigations</h3>
+            <p>Help compliance, sourcing, and risk teams focus on the origin stories that deserve immediate attention.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="section-title">Satellite footprint estimation</h2>
+            <p class="section-subtitle">
+              For the hackathon demo, we use an explainable algorithm instead of a black-box model:
+              detect visible evaporation-pond surfaces, calculate their area, and compare the footprint through time.
+            </p>
+          </div>
+          <div class="risk-badge" style="background: linear-gradient(135deg, #d97732, #703412);">NO ML NEEDED</div>
+        </div>
+
+        <div class="timelapse-stage">
+          <div class="compare-shell">
+            <img id="timelapseImageA" class="active" src="cauchari_late_2023.png" alt="Cauchari-Olaroz late 2023 satellite frame" onerror="this.onerror=null;this.src='cauchari_olaroz_nasa_2024.jpg';">
+            <img id="timelapseImageB" src="cauchari_late_2024.png" alt="Cauchari-Olaroz late 2024 satellite frame" onerror="this.onerror=null;this.src='cauchari_olaroz_nasa_2024.jpg';">
+            <img id="timelapseImageC" src="cauchari_detected_footprint_2024.png" alt="Detected Cauchari-Olaroz footprint mask" onerror="this.onerror=null;this.src='cauchari_olaroz_nasa_2024.jpg';">
+            <div class="scan-overlay"></div>
+            <div class="compare-meta">
+              <div>
+                <h3 id="frameTitle">Late 2023 baseline</h3>
+                <p id="frameCopy">A clean satellite window around the Cauchari-Olaroz operation creates the baseline visible footprint.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <button class="frame-btn active" data-frame="A" data-title="Late 2023 baseline" data-copy="A clean satellite window around the Cauchari-Olaroz operation creates the baseline visible footprint.">
+              <span>Frame 01</span>
+              <strong>Late 2023</strong>
+              <small>Baseline satellite composite for the known lithium site.</small>
+            </button>
+            <button class="frame-btn" data-frame="B" data-title="Late 2024 comparison" data-copy="A second satellite window lets us test whether the visible industrial footprint changes with the trade story.">
+              <span>Frame 02</span>
+              <strong>Late 2024</strong>
+              <small>Comparison composite after the 2024 export surge.</small>
+            </button>
+            <button class="frame-btn" data-frame="C" data-title="Detected footprint mask" data-copy="A transparent pixel rule isolates likely evaporation-pond surfaces and converts detected pixels into an estimated area.">
+              <span>Frame 03</span>
+              <strong>Detected footprint</strong>
+              <small>Explainable surface detection, not a black-box production estimate.</small>
+            </button>
+            <div class="method-note">
+              Export the three frames from Google Earth Engine using
+              <strong>gee_cauchari_surface_estimation.js</strong>. Until then, the page falls back to the NASA reference image.
+            </div>
+          </div>
+        </div>
+
+        <div class="workflow">
+          <div class="step">
+            <div class="step-number">01</div>
+            <h3>Load satellite windows</h3>
+            <p>Use Sentinel-2 imagery around Cauchari-Olaroz for late 2023 and late 2024, with cloud filtering and a fixed region of interest.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <h3>Detect visible ponds</h3>
+            <p>Apply a transparent pixel rule using vegetation, water/brine, and color-ratio signals to isolate likely evaporation ponds.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <h3>Calculate area</h3>
+            <p>Count detected pixels and convert them into km², creating a footprint signal that can be compared with trade growth.</p>
+          </div>
+        </div>
+
+        <div class="story-grid">
+          <div class="story-card">
+            <h3>What we can claim</h3>
+            <p>
+              The method estimates visible site footprint, not exact production. It helps test whether
+              the physical site looks consistent with industrial ramp-up.
+            </p>
+          </div>
+          <div class="story-card">
+            <h3>Why it matters</h3>
+            <p>
+              If trade volumes grow while the visible footprint stays flat, that becomes a stronger lead.
+              If both grow together, the origin story becomes more plausible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-cta reveal">
+      <h2>We do not accuse. We tell investigators where to look first.</h2>
+      <p>
+        OriginTrace turns fragmented open-source data into a modular verification platform for critical-material supply chains.
+        The same approach can scale from lithium to cobalt, nickel, copper, and every material that moves the world.
+      </p>
+    </section>
+  </main>
+  <script>
+    const buttons = document.querySelectorAll('.frame-btn');
+    const images = {
+      A: document.getElementById('timelapseImageA'),
+      B: document.getElementById('timelapseImageB'),
+      C: document.getElementById('timelapseImageC')
+    };
+    const title = document.getElementById('frameTitle');
+    const copy = document.getElementById('frameCopy');
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const frame = button.dataset.frame;
+        Object.values(images).forEach((image) => image.classList.remove('active'));
+        images[frame].classList.add('active');
+        buttons.forEach((candidate) => candidate.classList.remove('active'));
+        button.classList.add('active');
+        title.textContent = button.dataset.title;
+        copy.textContent = button.dataset.copy;
+      });
+    });
+  </script>
+</body>
+</html>

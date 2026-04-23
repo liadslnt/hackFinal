@@ -8,7 +8,7 @@ import streamlit as st
 
 from trade_risk_analysis import build_mirror_dataset, default_output_path, load_dataset, save_dataset
 
-st.set_page_config(page_title="Lithium Mirror Risk Intelligence", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="Mirror Risk Intelligence", page_icon=":bar_chart:", layout="wide")
 
 PROJECT_DIR = Path(__file__).resolve().parent
 PRODUCT_PRESETS = {
@@ -16,9 +16,12 @@ PRODUCT_PRESETS = {
     "283691": "283691 - Lithium carbonate",
     "282520": "282520 - Lithium oxide and hydroxide",
     "850760": "850760 - Lithium-ion batteries (public-source coverage may fail)",
+    "1001": "1001 - Wheat and meslin",
 }
 ARGENTINA_CHART_PATH = PROJECT_DIR / "argentina_mirror_trade_quarterly_2024.png"
 ARGENTINA_SODIUM_FILE = PROJECT_DIR / "TradeData_4_22_2026_12_56_0.csv"
+WORLD_BANK_LPI_URL = "https://lpi.worldbank.org/index.php/international/global"
+UNCTAD_ARGENTINA_MARITIME_URL = "https://unctadstat.unctad.org/CountryProfile/MaritimeProfile/en-GB/032/index.html"
 
 
 def inject_styles() -> None:
@@ -28,27 +31,42 @@ def inject_styles() -> None:
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Manrope:wght@400;500;600;700&display=swap');
 
         :root {
-            --bg: #f4f0e8;
-            --surface: rgba(255, 255, 255, 0.78);
-            --surface-strong: rgba(255, 255, 255, 0.92);
-            --ink: #14213d;
-            --muted: #526173;
-            --line: rgba(20, 33, 61, 0.10);
-            --accent: #c96d32;
-            --accent-soft: rgba(201, 109, 50, 0.12);
+            --bg: #f5efe5;
+            --surface: rgba(255, 255, 255, 0.72);
+            --surface-strong: rgba(255, 255, 255, 0.95);
+            --ink: #101c2d;
+            --muted: #536274;
+            --line: rgba(16, 28, 45, 0.11);
+            --accent: #c8662d;
+            --accent-2: #1d9a8a;
+            --accent-soft: rgba(200, 102, 45, 0.12);
             --high: #a83232;
             --medium: #b67a1f;
             --low: #2e7d5b;
-            --shadow: 0 20px 40px rgba(20, 33, 61, 0.08);
+            --shadow: 0 24px 58px rgba(16, 28, 45, 0.11);
+            --shadow-soft: 0 12px 26px rgba(16, 28, 45, 0.08);
         }
 
         .stApp {
             background:
-                radial-gradient(circle at top left, rgba(201, 109, 50, 0.14), transparent 28%),
-                radial-gradient(circle at top right, rgba(20, 33, 61, 0.09), transparent 24%),
-                linear-gradient(180deg, #f7f2ea 0%, #efe8dd 100%);
+                radial-gradient(circle at 8% 4%, rgba(200, 102, 45, 0.18), transparent 27%),
+                radial-gradient(circle at 96% 2%, rgba(29, 154, 138, 0.13), transparent 24%),
+                linear-gradient(180deg, #fbf5eb 0%, #efe5d7 54%, #eadfce 100%);
             color: var(--ink);
             font-family: "Manrope", sans-serif;
+        }
+
+        .stApp::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image:
+                linear-gradient(rgba(16, 28, 45, 0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(16, 28, 45, 0.035) 1px, transparent 1px);
+            background-size: 48px 48px;
+            mask-image: linear-gradient(180deg, rgba(0,0,0,0.65), transparent 72%);
+            z-index: 0;
         }
 
         h1, h2, h3, h4 {
@@ -58,8 +76,11 @@ def inject_styles() -> None:
         }
 
         [data-testid="stSidebar"] {
-            background: linear-gradient(180deg, #17324d 0%, #0f2439 100%);
-            border-right: 1px solid rgba(255, 255, 255, 0.08);
+            background:
+                radial-gradient(circle at top left, rgba(200, 102, 45, 0.24), transparent 34%),
+                linear-gradient(180deg, #13283e 0%, #0b1c2d 100%);
+            border-right: 1px solid rgba(255, 255, 255, 0.10);
+            box-shadow: 18px 0 50px rgba(16, 28, 45, 0.14);
         }
 
         [data-testid="stSidebar"] * {
@@ -78,15 +99,31 @@ def inject_styles() -> None:
         }
 
         .hero-shell {
+            position: relative;
             background:
-                linear-gradient(135deg, rgba(20, 33, 61, 0.96) 0%, rgba(27, 52, 81, 0.94) 58%, rgba(201, 109, 50, 0.90) 100%);
+                radial-gradient(circle at 86% 18%, rgba(255, 203, 128, 0.26), transparent 22%),
+                radial-gradient(circle at 24% 0%, rgba(84, 189, 188, 0.16), transparent 25%),
+                linear-gradient(135deg, rgba(14, 28, 45, 0.98) 0%, rgba(20, 47, 73, 0.96) 56%, rgba(129, 65, 31, 0.94) 100%);
             color: #fff8f1;
-            border-radius: 28px;
-            padding: 1.8rem 2rem;
-            box-shadow: var(--shadow);
-            border: 1px solid rgba(255, 255, 255, 0.10);
+            border-radius: 34px;
+            padding: 2.25rem 2.35rem;
+            box-shadow: 0 32px 76px rgba(16, 28, 45, 0.22);
+            border: 1px solid rgba(255, 255, 255, 0.14);
             margin-bottom: 1.25rem;
             overflow: hidden;
+            animation: riseIn 0.55s ease both;
+        }
+
+        .hero-shell::after {
+            content: "";
+            position: absolute;
+            right: -80px;
+            bottom: -120px;
+            width: 360px;
+            height: 360px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.10);
+            box-shadow: inset 0 0 70px rgba(255,255,255,0.07);
         }
 
         .hero-kicker {
@@ -103,16 +140,17 @@ def inject_styles() -> None:
 
         .hero-title {
             font-family: "Space Grotesk", sans-serif;
-            font-size: 2.4rem;
-            line-height: 1.02;
+            font-size: clamp(2.35rem, 5vw, 4.4rem);
+            line-height: 0.95;
             margin: 0 0 0.6rem 0;
             color: #fff8f1;
+            max-width: 920px;
         }
 
         .hero-text {
             max-width: 880px;
             color: rgba(255, 248, 241, 0.86);
-            font-size: 1rem;
+            font-size: 1.05rem;
             line-height: 1.6;
             margin-bottom: 0.9rem;
         }
@@ -130,15 +168,24 @@ def inject_styles() -> None:
             background: rgba(255,255,255,0.12);
             border: 1px solid rgba(255,255,255,0.16);
             font-size: 0.9rem;
+            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
         }
 
         .section-card {
             background: var(--surface);
             border: 1px solid var(--line);
-            border-radius: 24px;
+            border-radius: 26px;
             padding: 1.15rem 1.2rem;
             box-shadow: var(--shadow);
             backdrop-filter: blur(12px);
+            animation: riseIn 0.45s ease both;
+            transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+        }
+
+        .section-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 28px 62px rgba(16, 28, 45, 0.13);
+            border-color: rgba(200, 102, 45, 0.20);
         }
 
         .section-card + .section-card {
@@ -205,11 +252,31 @@ def inject_styles() -> None:
         }
 
         .stat-card {
-            background: var(--surface-strong);
+            position: relative;
+            background:
+                linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,255,255,0.82));
             border: 1px solid var(--line);
-            border-radius: 22px;
+            border-radius: 24px;
             padding: 1rem 1.1rem;
             min-height: 126px;
+            box-shadow: var(--shadow-soft);
+            overflow: hidden;
+            transition: transform 0.18s ease, box-shadow 0.18s ease;
+        }
+
+        .stat-card::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            opacity: 0.75;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
             box-shadow: var(--shadow);
         }
 
@@ -244,7 +311,7 @@ def inject_styles() -> None:
         }
 
         .mini-tile {
-            background: rgba(20, 33, 61, 0.03);
+            background: linear-gradient(180deg, rgba(255,255,255,0.76), rgba(255,255,255,0.42));
             border: 1px solid var(--line);
             border-radius: 18px;
             padding: 0.9rem;
@@ -300,21 +367,35 @@ def inject_styles() -> None:
 
         .stTabs [data-baseweb="tab-list"] {
             gap: 0.55rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.85rem;
+            background: rgba(255,255,255,0.38);
+            padding: 0.45rem;
+            border-radius: 999px;
+            border: 1px solid rgba(16, 28, 45, 0.08);
+            box-shadow: var(--shadow-soft);
         }
 
         .stTabs [data-baseweb="tab"] {
-            background: rgba(255,255,255,0.58);
-            border: 1px solid var(--line);
+            background: rgba(20, 33, 61, 0.08);
+            border: 1px solid rgba(20, 33, 61, 0.16);
             border-radius: 999px;
             padding: 0.55rem 0.95rem;
             font-weight: 700;
+            color: var(--ink) !important;
+            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
+            transition: all 0.18s ease;
+        }
+
+        .stTabs [data-baseweb="tab"]:hover {
+            background: rgba(20, 33, 61, 0.14);
+            border-color: rgba(20, 33, 61, 0.24);
         }
 
         .stTabs [aria-selected="true"] {
             background: linear-gradient(135deg, #17324d 0%, #c96d32 100%) !important;
             color: #fff7ef !important;
             border-color: transparent !important;
+            box-shadow: 0 14px 26px rgba(16, 28, 45, 0.18);
         }
 
         div[data-testid="stMetric"] {
@@ -331,12 +412,33 @@ def inject_styles() -> None:
             border: 1px solid var(--line);
             padding: 0.35rem;
             box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .stButton > button,
+        .stLinkButton > a {
+            border-radius: 999px !important;
+            border: 1px solid rgba(16, 28, 45, 0.12) !important;
+            box-shadow: var(--shadow-soft) !important;
+            font-weight: 800 !important;
+            transition: transform 0.18s ease, box-shadow 0.18s ease !important;
+        }
+
+        .stButton > button:hover,
+        .stLinkButton > a:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow) !important;
         }
 
         [data-testid="stImage"] img {
             border-radius: 20px;
             border: 1px solid var(--line);
             box-shadow: var(--shadow);
+        }
+
+        @keyframes riseIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         </style>
         """,
@@ -396,7 +498,7 @@ def render_intro_hero() -> None:
         """
         <section class="hero-shell">
             <div class="hero-kicker">Supply Chain Intelligence</div>
-            <div class="hero-title">Lithium Mirror Trade Risk Intelligence</div>
+            <div class="hero-title">Mirror Trade Risk Intelligence</div>
             <div class="hero-text">
                 Explore trade inconsistencies country by country using official public trade data.
                 The platform compares what an exporter declares with what the rest of the world says it imported,
@@ -421,8 +523,8 @@ def render_country_header(country: str, risk: str, year: int, product_name: str)
             <div class="risk-label {risk_class}">{risk} RISK</div>
             <div class="risk-title">{country}</div>
             <p class="risk-subtext">
-                {product_name} in {year}. This view compares the country's declared exports against
-                the mirror imports reported by all partner countries.
+                {product_name} | {year}. This view compares the country's declared exports against the mirror imports
+                reported by all partner countries.
             </p>
         </div>
         """,
@@ -587,6 +689,231 @@ def load_argentina_sodium_signal(path_str: str) -> dict | None:
     }
 
 
+def get_structural_logistics_signal(country: str) -> dict | None:
+    if country != "Argentina":
+        return None
+    return {
+        "country": "Argentina",
+        "lpi_year": 2023,
+        "lpi_rank": 73,
+        "lpi_score": 2.8,
+        "customs_score": 2.7,
+        "infrastructure_score": 2.8,
+        "international_shipments_score": 2.7,
+        "logistics_competence_score": 2.7,
+        "tracking_tracing_score": 2.9,
+        "timeliness_score": 3.1,
+        "container_throughput_year": 2023,
+        "container_throughput_teu": 1_490_437,
+        "maritime_note": (
+            "UNCTAD maritime country profiles expose country-level port and shipping context, "
+            "including liner shipping connectivity, port calls/performance and container throughput."
+        ),
+    }
+
+
+def render_structural_logistics_layer(country: str) -> None:
+    logistics = get_structural_logistics_signal(country)
+    if logistics is None:
+        return
+
+    st.markdown(
+        f"""
+        <div class="section-card" style="margin-top: 1rem;">
+            <div class="eyebrow">Structural Logistics Layer</div>
+            <div class="body-copy">
+                This prototype adds stable logistics context from public datasets. Instead of relying only on live news,
+                we compare the trade anomaly with a country's logistics quality, customs performance, international
+                shipment capability, and maritime/port profile.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    l1, l2, l3, l4 = st.columns(4)
+    with l1:
+        render_stat_card(
+            "LPI rank",
+            f"#{logistics['lpi_rank']}",
+            "World Bank Logistics Performance Index, 2023.",
+        )
+    with l2:
+        render_stat_card(
+            "LPI score",
+            f"{logistics['lpi_score']:.1f} / 5",
+            "Overall logistics performance score.",
+        )
+    with l3:
+        render_stat_card(
+            "Customs score",
+            f"{logistics['customs_score']:.1f} / 5",
+            "Border clearance efficiency and predictability.",
+        )
+    with l4:
+        render_stat_card(
+            "Container throughput",
+            f"{logistics['container_throughput_teu']:,.0f} TEU",
+            "UNCTAD country-level port capacity context, 2023.",
+        )
+
+    lpi_table = pd.DataFrame(
+        [
+            {"Dimension": "Customs", "Score": logistics["customs_score"], "Why it matters": "Weak customs performance can increase misclassification or reporting friction."},
+            {"Dimension": "Infrastructure", "Score": logistics["infrastructure_score"], "Why it matters": "Ports, rail, roads and IT constrain physical export capacity."},
+            {"Dimension": "International shipments", "Score": logistics["international_shipments_score"], "Why it matters": "Low shipment performance can explain delays, rerouting or timing gaps."},
+            {"Dimension": "Logistics competence", "Score": logistics["logistics_competence_score"], "Why it matters": "Broker and carrier quality affects documentation reliability."},
+            {"Dimension": "Tracking & tracing", "Score": logistics["tracking_tracing_score"], "Why it matters": "Poor traceability weakens chain-of-custody confidence."},
+            {"Dimension": "Timeliness", "Score": logistics["timeliness_score"], "Why it matters": "Timing issues can create reporting mismatches across years or partners."},
+        ]
+    )
+    lpi_table["Score"] = lpi_table["Score"].map(lambda value: f"{value:.1f} / 5")
+
+    st.markdown('<div class="table-title">World Bank LPI Breakdown</div>', unsafe_allow_html=True)
+    st.dataframe(lpi_table, use_container_width=True, hide_index=True)
+
+    st.markdown(
+        f"""
+        <div class="section-card" style="margin-top: 1rem;">
+            <div class="eyebrow">Interpretation</div>
+            <div class="body-copy">
+                Argentina's LPI profile is not a fraud signal by itself. It is an explainability layer:
+                when a mirror-trade gap appears, logistics quality, customs performance and maritime capacity help
+                decide whether the anomaly may come from reporting friction, rerouting, timing issues, or a stronger
+                origin-risk hypothesis.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    source_left, source_right = st.columns(2)
+    with source_left:
+        st.link_button("Open World Bank LPI source", WORLD_BANK_LPI_URL, use_container_width=True)
+    with source_right:
+        st.link_button("Open UNCTAD maritime profile", UNCTAD_ARGENTINA_MARITIME_URL, use_container_width=True)
+
+
+def render_weak_signal_layer(country_row: pd.Series, sodium_signal: dict | None, year: int) -> None:
+    gap_pct = float(country_row["gap_pct"])
+    gap_kg = float(country_row["gap_kg"])
+    risk = str(country_row["risk"])
+
+    priority_score = 35
+    if risk == "HIGH":
+        priority_score += 30
+    elif risk == "MEDIUM":
+        priority_score += 15
+    if gap_pct >= 30:
+        priority_score += 15
+    if gap_kg >= 10_000_000:
+        priority_score += 10
+    if sodium_signal is not None:
+        priority_score += 10
+    priority_score = min(priority_score, 100)
+
+    if priority_score >= 75:
+        priority_label = "HIGH PRIORITY"
+    elif priority_score >= 55:
+        priority_label = "MEDIUM PRIORITY"
+    else:
+        priority_label = "LOW PRIORITY"
+
+    sodium_status = "Active"
+    sodium_signal_text = "Local Comtrade sodium carbonate file loaded"
+    sodium_automation = "Scale to other upstream inputs by HS code"
+    if sodium_signal is None:
+        sodium_status = "Missing file"
+        sodium_signal_text = "No sodium carbonate file connected"
+        sodium_automation = "Attach local Comtrade extract or live connector"
+
+    signals = pd.DataFrame(
+        [
+            {
+                "Layer": "Mirror-trade anomaly",
+                "Current signal": f"{format_kg(gap_kg)} gap ({format_pct(gap_pct)})",
+                "Status": "Active",
+                "Next automation": "Run across products, countries, and years",
+            },
+            {
+                "Layer": "Upstream input check",
+                "Current signal": sodium_signal_text,
+                "Status": sodium_status,
+                "Next automation": sodium_automation,
+            },
+            {
+                "Layer": "Logistics disruption scan",
+                "Current signal": "Ports, road corridors, strikes, accidents, delays",
+                "Status": "Prototype connector",
+                "Next automation": "Connect port notices and logistics datasets for the same country-year",
+            },
+            {
+                "Layer": "Hiring / capacity scan",
+                "Current signal": "Operator jobs, processing roles, transport roles",
+                "Status": "Prototype connector",
+                "Next automation": "Track job-posting volume and keywords over time",
+            },
+            {
+                "Layer": "Customs-origin consistency",
+                "Current signal": "Importer-reported origin vs exporter declaration",
+                "Status": "Prototype connector",
+                "Next automation": "Flag countries where origin claims diverge repeatedly",
+            },
+        ]
+    )
+
+    st.markdown(
+        f"""
+        <div class="section-card" style="margin-top: 1rem;">
+            <div class="eyebrow">Weak Signals Prototype</div>
+            <div class="body-copy">
+                This layer turns the trade anomaly into an investigation workflow. It separates what is already
+                measured in the app from the external signals we would connect next: logistics disruption,
+                hiring, port activity, and customs-origin checks.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    w1, w2, w3 = st.columns(3)
+    with w1:
+        render_stat_card(
+            "Investigation priority",
+            priority_label,
+            f"Prototype score: {priority_score}/100 from trade gap, risk level, and upstream input evidence.",
+        )
+    with w2:
+        render_stat_card(
+            "Active evidence",
+            "2 layers" if sodium_signal is not None else "1 layer",
+            "Mirror-trade is active; sodium input check is active when the local file is available.",
+        )
+    with w3:
+        render_stat_card(
+            "Next connectors",
+            "3 layers",
+            "Logistics disruption, hiring/capacity, and customs-origin consistency.",
+        )
+
+    st.markdown('<div class="table-title">Prototype Investigation Layers</div>', unsafe_allow_html=True)
+    st.dataframe(signals, use_container_width=True, hide_index=True)
+
+    st.markdown(
+        """
+        <div class="section-card" style="margin-top: 1rem;">
+            <div class="eyebrow">Demo Narrative</div>
+            <div class="body-copy">
+                If a country shows a large mirror-trade gap, we do not call it fraud. We ask what could explain it.
+                A real disruption layer would look for road closures, port congestion, customs constraints,
+                sudden hiring, or production announcements in the same period.
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 @st.cache_data(show_spinner=False)
 def load_cached_dataset(product_code: str, year: int) -> pd.DataFrame:
     path = default_output_path(product_code, year)
@@ -630,9 +957,9 @@ st.markdown(
     <div class="section-card" style="margin-bottom: 1rem;">
         <div class="eyebrow">What This Tool Does</div>
         <div class="body-copy">
-            Pick an HS code and a year. The app fetches or loads the relevant dataset, then compares
-            each country's declared exports with the mirror imports declared by the rest of the world.
-            Risk is based on both percentage gap and absolute traded volume, so tiny flows are not treated the same way as large industrial ones.
+            Pick an HS code and a year. The app loads the relevant dataset, then compares each country's declared
+            exports with the mirror imports declared by the rest of the world. Risk is based on both percentage gap
+            and absolute traded volume, so tiny flows are not treated the same way as large industrial ones.
         </div>
     </div>
     """,
@@ -986,6 +1313,9 @@ with overview_tab:
             with c_suppliers:
                 st.markdown('<div class="table-title">Top Sodium Suppliers</div>', unsafe_allow_html=True)
                 st.dataframe(supplier_table, use_container_width=True, hide_index=True)
+
+        render_structural_logistics_layer(str(country_row["country"]))
+        render_weak_signal_layer(country_row, sodium_signal, current_year)
 
 with partners_tab:
     c1, c2 = st.columns(2)

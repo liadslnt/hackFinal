@@ -1,0 +1,399 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OriginTrace | Functional Intelligence Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink:#07111f; --navy:#081522; --navy2:#11263d; --paper:#fffaf1; --sand:#f1e3cf;
+      --muted:#778292; --copper:#d97732; --teal:#25b7a5; --red:#c6403a; --green:#40c58c;
+      --line:rgba(7,17,31,.10); --whiteLine:rgba(255,255,255,.15);
+      --shadow:0 30px 90px rgba(7,17,31,.22); --soft:0 18px 48px rgba(7,17,31,.12);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--navy)}
+    body{margin:0;font-family:Manrope,sans-serif;color:var(--ink);background:
+      radial-gradient(circle at 10% 0%,rgba(217,119,50,.23),transparent 27%),
+      radial-gradient(circle at 95% 0%,rgba(37,183,165,.18),transparent 25%),
+      linear-gradient(180deg,#091522 0%,#102237 39%,#f1e4d0 39%,#ecdec9 100%);overflow-x:hidden}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:
+      linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+      background-size:56px 56px;mask-image:linear-gradient(180deg,rgba(0,0,0,.88),transparent 74%);z-index:0}
+    .shell{width:min(1220px,calc(100vw - 38px));margin:0 auto;position:relative;z-index:2}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:24px 0;color:white}
+    .brand{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:900;font-size:23px;letter-spacing:-.04em}
+    .brand-mark{width:38px;height:38px;border-radius:13px;background:radial-gradient(circle at 70% 30%,#ffe3a8,transparent 22%),linear-gradient(135deg,var(--teal),var(--copper));box-shadow:0 0 40px rgba(37,183,165,.3)}
+    .nav-pills{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
+    .nav-pills span{border:1px solid var(--whiteLine);color:rgba(255,255,255,.78);padding:9px 13px;border-radius:999px;font-size:13px;background:rgba(255,255,255,.06);backdrop-filter:blur(12px)}
+    .hero{display:grid;grid-template-columns:1fr .86fr;gap:28px;align-items:center;color:var(--paper);padding:34px 0 34px}
+    .kicker{display:inline-flex;gap:8px;align-items:center;padding:9px 13px;border-radius:999px;border:1px solid var(--whiteLine);background:rgba(255,255,255,.07);color:rgba(255,255,255,.82);font-size:13px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;backdrop-filter:blur(12px)}
+    .kicker:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 22px var(--green)}
+    h1{font-family:"Space Grotesk";font-size:clamp(52px,7vw,92px);line-height:.9;letter-spacing:-.075em;margin:24px 0 18px}
+    .hero-copy{font-size:18px;line-height:1.7;color:rgba(255,250,241,.78);max-width:720px;margin:0 0 24px}
+    .query-panel{border-radius:34px;padding:22px;background:rgba(255,255,255,.10);border:1px solid var(--whiteLine);box-shadow:var(--shadow);backdrop-filter:blur(18px)}
+    .query-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    label{display:block;color:rgba(255,255,255,.64);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px}
+    select,input{width:100%;height:48px;border-radius:16px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.10);color:white;padding:0 14px;font:700 14px Manrope;outline:none}
+    option{color:#07111f}
+    .actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+    button,.btn{border:0;border-radius:999px;padding:14px 18px;font:900 14px Manrope;cursor:pointer;transition:.2s;display:inline-flex;justify-content:center;align-items:center;text-decoration:none}
+    button:hover,.btn:hover{transform:translateY(-2px);box-shadow:var(--soft)}
+    .primary{background:linear-gradient(135deg,#ffe2a9,var(--copper));color:#081522}.secondary{background:rgba(255,255,255,.09);color:white;border:1px solid var(--whiteLine)}
+    .status{margin-top:12px;color:rgba(255,255,255,.72);font-size:13px;line-height:1.5;min-height:20px}
+    .section{padding:28px 0}.panel{border-radius:34px;background:rgba(255,250,241,.80);border:1px solid var(--line);box-shadow:var(--soft);backdrop-filter:blur(18px);overflow:hidden}
+    .panel-header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding:26px 28px 18px;border-bottom:1px solid rgba(7,17,31,.08)}
+    .section-title{font-family:"Space Grotesk";font-size:clamp(31px,4vw,52px);letter-spacing:-.065em;line-height:1;margin:0}
+    .section-subtitle{color:var(--muted);line-height:1.65;max-width:670px;margin:10px 0 0}
+    .risk-badge{display:inline-flex;align-items:center;gap:10px;color:white;background:linear-gradient(135deg,#c6403a,#7f1e1a);border-radius:999px;padding:12px 16px;font-weight:900;white-space:nowrap;box-shadow:0 14px 34px rgba(198,64,58,.25)}
+    .risk-badge:before{content:"";width:10px;height:10px;border-radius:50%;background:#ffb4aa;box-shadow:0 0 22px #ffb4aa}
+    .metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:22px 28px}
+    .metric{border-radius:24px;padding:18px;background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(255,255,255,.58));border:1px solid rgba(7,17,31,.08);box-shadow:0 12px 30px rgba(7,17,31,.08);position:relative;overflow:hidden}
+    .metric:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--copper),var(--teal))}
+    .metric span{display:block;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:900;margin-bottom:10px}
+    .metric strong{display:block;font-family:"Space Grotesk";font-size:clamp(23px,2.8vw,36px);letter-spacing:-.06em;line-height:1}.metric small{display:block;color:var(--muted);margin-top:10px;line-height:1.45}
+    .tabs{display:flex;gap:10px;padding:0 28px 22px;flex-wrap:wrap}.tab{background:rgba(7,17,31,.06);color:#172338;border:1px solid rgba(7,17,31,.09)}.tab.active{background:linear-gradient(135deg,#102237,var(--copper));color:white}
+    .tab-body{padding:0 28px 28px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid13{display:grid;grid-template-columns:1.15fr .85fr;gap:18px}
+    .card{padding:22px;border-radius:26px;background:rgba(255,255,255,.64);border:1px solid rgba(7,17,31,.08);box-shadow:0 10px 26px rgba(7,17,31,.06)}
+    .card h3{font-family:"Space Grotesk";letter-spacing:-.045em;font-size:26px;margin:0 0 10px}.card p{margin:0;color:var(--muted);line-height:1.65}
+    .table-wrap{overflow:auto;border-radius:24px;border:1px solid rgba(7,17,31,.09);background:rgba(255,255,255,.72)}
+    table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:13px 14px;border-bottom:1px solid rgba(7,17,31,.07)}th{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}td{font-weight:700}tr:last-child td{border-bottom:0}
+    .risk-high{color:#b42e2a}.risk-medium{color:#ad6b14}.risk-low{color:#237a55}
+    .image-frame{border-radius:30px;overflow:hidden;background:#0d1c2e;border:1px solid rgba(7,17,31,.10);box-shadow:var(--soft);position:relative}.image-frame img{width:100%;display:block;object-fit:cover;min-height:330px}.image-label{position:absolute;left:18px;top:18px;padding:10px 13px;border-radius:999px;background:rgba(7,17,31,.72);color:white;font-weight:900;font-size:13px;backdrop-filter:blur(12px)}
+    .pills{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.pill{padding:8px 11px;border-radius:999px;background:rgba(217,119,50,.12);color:#7c3d17;border:1px solid rgba(217,119,50,.20);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.05em}
+    .timeline{position:relative;margin-top:18px;display:grid;gap:14px}.timeline:before{content:"";position:absolute;left:19px;top:18px;bottom:18px;width:2px;background:linear-gradient(180deg,var(--teal),var(--copper));opacity:.55}.timeline-item{position:relative;padding:16px 16px 16px 58px;border-radius:22px;background:rgba(255,255,255,.62);border:1px solid rgba(7,17,31,.08)}.timeline-dot{position:absolute;left:10px;top:18px;width:20px;height:20px;border-radius:50%;background:#fff;border:5px solid var(--copper);box-shadow:0 0 0 8px rgba(217,119,50,.10)}.timeline-item span{color:var(--copper);font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:12px}.timeline-item strong{display:block;font-family:"Space Grotesk";font-size:24px;letter-spacing:-.05em;margin:4px 0}.timeline-item p{margin:0;color:var(--muted);line-height:1.55}
+    .footer{margin:30px 0 55px;border-radius:36px;padding:34px;color:white;background:radial-gradient(circle at 88% 15%,rgba(217,119,50,.22),transparent 22%),linear-gradient(135deg,#0a1829,#12283f);box-shadow:var(--shadow)}
+    .footer h2{font-family:"Space Grotesk";font-size:clamp(34px,5vw,62px);line-height:.95;letter-spacing:-.07em;margin:0 0 14px}.footer p{max-width:760px;color:rgba(255,255,255,.74);line-height:1.7;margin:0}
+    .hidden{display:none}.fade{animation:fade .45s ease both}@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @media(max-width:900px){.hero,.grid2,.grid13{grid-template-columns:1fr}.metric-grid{grid-template-columns:1fr 1fr}.panel-header{flex-direction:column}.actions{grid-template-columns:1fr}}
+    @media(max-width:560px){.metric-grid{grid-template-columns:1fr}.nav{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <nav class="nav">
+      <div class="brand"><div class="brand-mark"></div>OriginTrace</div>
+      <div class="nav-pills"><span>Functional platform</span><span>Mirror trade</span><span>Ground truth</span></div>
+    </nav>
+
+    <section class="hero">
+      <div class="fade">
+        <div class="kicker">Critical minerals verification</div>
+        <h1>Where trade claims meet ground truth.</h1>
+        <p class="hero-copy">A functional intelligence platform that ranks suspicious lithium trade flows, then connects them to operational evidence: satellite imagery, production disclosures, industrial inputs, trucking routes, and hiring activity.</p>
+        <a class="btn primary" href="#workspace">Open investigation workspace</a>
+      </div>
+      <div class="query-panel fade">
+        <div class="query-grid">
+          <div><label>HS code</label><select id="hsSelect"></select></div>
+          <div><label>Year</label><select id="yearSelect"></select></div>
+          <div><label>Country</label><select id="countrySelect"></select></div>
+          <div><label>Quick search</label><input id="countrySearch" value="Argentina" placeholder="Type a country name"></div>
+        </div>
+        <div class="actions">
+          <button class="primary" id="loadBtn">Load cached data</button>
+          <button class="secondary" id="buildBtn">Fetch official data</button>
+        </div>
+        <div class="status" id="status">Loading available datasets...</div>
+      </div>
+    </section>
+
+    <section class="section" id="workspace">
+      <div class="panel">
+        <div class="panel-header">
+          <div>
+            <h2 class="section-title" id="caseTitle">Investigation workspace</h2>
+            <p class="section-subtitle" id="caseSubtitle">Choose a dataset and country to begin.</p>
+          </div>
+          <div class="risk-badge" id="riskBadge">WAITING</div>
+        </div>
+        <div class="metric-grid" id="metricGrid"></div>
+        <div class="tabs">
+          <button class="tab active" data-tab="overview">Overview</button>
+          <button class="tab" data-tab="partners">Partner flows</button>
+          <button class="tab" data-tab="evidence">Evidence</button>
+          <button class="tab" data-tab="ranking">Full ranking</button>
+        </div>
+        <div class="tab-body" id="tabBody"></div>
+      </div>
+    </section>
+
+    <section class="footer fade">
+      <h2>We do not accuse. We tell investigators where to look first.</h2>
+      <p>OriginTrace turns fragmented open-source data into a modular verification platform for critical-material supply chains.</p>
+    </section>
+  </main>
+
+  <script>
+    const fmtKg = (v) => `${Math.round(Number(v || 0)).toLocaleString()} kg`;
+    const fmtUsd = (v) => `$${Math.round(Number(v || 0)).toLocaleString()}`;
+    const fmtPct = (v) => `${Number(v || 0).toFixed(2)}%`;
+    const shortKg = (v) => {
+      v = Number(v || 0);
+      if (Math.abs(v) >= 1e6) return `${(v/1e6).toFixed(1)}M kg`;
+      if (Math.abs(v) >= 1e3) return `${(v/1e3).toFixed(1)}k kg`;
+      return `${Math.round(v).toLocaleString()} kg`;
+    };
+
+    let datasets = [];
+    let records = [];
+    let currentMeta = {};
+    let selectedCountry = null;
+    let activeTab = 'overview';
+    let sodiumSignal = null;
+
+    const statusEl = document.getElementById('status');
+    const hsSelect = document.getElementById('hsSelect');
+    const yearSelect = document.getElementById('yearSelect');
+    const countrySelect = document.getElementById('countrySelect');
+    const countrySearch = document.getElementById('countrySearch');
+
+    async function api(path) {
+      const res = await fetch(path);
+      const data = await res.json();
+      if (!res.ok || data.error) throw new Error(data.error || 'Request failed');
+      return data;
+    }
+
+    function setStatus(message) { statusEl.textContent = message; }
+
+    async function boot() {
+      const data = await api('/api/datasets');
+      datasets = data.datasets;
+      const hsCodes = [...new Set(datasets.map(d => d.hs))].sort((a, b) => a === '283691' ? -1 : b === '283691' ? 1 : a.localeCompare(b));
+      hsSelect.innerHTML = hsCodes.map(hs => {
+        const label = datasets.find(d => d.hs === hs)?.product || hs;
+        return `<option value="${hs}" ${hs === '283691' ? 'selected' : ''}>${hs} | ${label}</option>`;
+      }).join('');
+      refreshYearOptions();
+      await loadDataset();
+      try { sodiumSignal = (await api('/api/sodium')).signal; } catch { sodiumSignal = null; }
+    }
+
+    function refreshYearOptions() {
+      const hs = hsSelect.value || '283691';
+      const years = [2024, 2023, 2022, 2021, 2020];
+      yearSelect.innerHTML = years.map(year => {
+        const cached = datasets.some(d => d.hs === hs && Number(d.year) === year);
+        const label = cached ? `${year} | cached` : `${year} | fetch needed`;
+        return `<option value="${year}" ${year === 2024 ? 'selected' : ''}>${label}</option>`;
+      }).join('');
+    }
+
+    function refreshCountryOptions() {
+      const current = selectedCountry?.country || 'Argentina';
+      const countries = records.map(r => r.country).sort((a, b) => a.localeCompare(b));
+      countrySelect.innerHTML = countries.map(country => `<option value="${country}" ${country === current ? 'selected' : ''}>${country}</option>`).join('');
+      if (countries.includes(current)) countrySelect.value = current;
+    }
+
+    async function loadDataset() {
+      const hs = hsSelect.value;
+      const year = yearSelect.value;
+      setStatus(`Loading HS ${hs} in ${year}...`);
+      const data = await api(`/api/risk?hs=${encodeURIComponent(hs)}&year=${encodeURIComponent(year)}`);
+      records = data.records;
+      currentMeta = data;
+      refreshCountryOptions();
+      const preferred = countrySearch.value || 'Argentina';
+      selectCountry(preferred);
+      const cachedLabel = datasets.some(d => d.hs === hs && Number(d.year) === Number(year)) ? 'cached' : 'newly loaded';
+      setStatus(`${data.summary.total} countries loaded (${cachedLabel}) | HIGH ${data.summary.high} | MEDIUM ${data.summary.medium} | LOW ${data.summary.low}`);
+    }
+
+    async function buildDataset() {
+      const hs = hsSelect.value;
+      const year = yearSelect.value;
+      setStatus(`Fetching official data for HS ${hs} in ${year}. This may take a minute...`);
+      await api(`/api/build?hs=${encodeURIComponent(hs)}&year=${encodeURIComponent(year)}&sleep=0.25`);
+      await loadDataset();
+      setStatus(`Official data fetched and cached for HS ${hs} in ${year}.`);
+    }
+
+    function selectCountry(query) {
+      const q = String(query || '').trim().toLowerCase();
+      selectedCountry = records.find(r => String(r.country).toLowerCase() === q)
+        || records.find(r => String(r.country).toLowerCase().includes(q))
+        || records[0];
+      render();
+    }
+
+    function riskClass(risk) {
+      if (risk === 'HIGH') return 'risk-high';
+      if (risk === 'MEDIUM') return 'risk-medium';
+      return 'risk-low';
+    }
+
+    function renderMetrics(row) {
+      document.getElementById('metricGrid').innerHTML = [
+        ['Reported exports', shortKg(row.reported_exports_kg), 'Quantity declared by the exporter country.'],
+        ['Mirror imports', shortKg(row.mirror_imports_kg), 'Quantity reported by partner countries.'],
+        ['Absolute gap', shortKg(row.gap_kg), 'Physical discrepancy between both views.'],
+        ['Gap ratio', fmtPct(row.gap_pct), 'Gap as a share of reported exports.'],
+      ].map(([label, value, note]) => `
+        <div class="metric"><span>${label}</span><strong>${value}</strong><small>${note}</small></div>
+      `).join('');
+    }
+
+    function render() {
+      if (!selectedCountry) return;
+      const row = selectedCountry;
+      if (countrySelect.value !== row.country) countrySelect.value = row.country;
+      document.getElementById('caseTitle').textContent = `${row.country} case file`;
+      document.getElementById('caseSubtitle').textContent = `HS ${currentMeta.hs} | ${currentMeta.product} | ${currentMeta.year}`;
+      const badge = document.getElementById('riskBadge');
+      badge.textContent = `${row.risk} RISK`;
+      badge.style.background = row.risk === 'HIGH'
+        ? 'linear-gradient(135deg,#c6403a,#7f1e1a)'
+        : row.risk === 'MEDIUM'
+          ? 'linear-gradient(135deg,#d97732,#8a491f)'
+          : 'linear-gradient(135deg,#1e9b87,#0b4d48)';
+      renderMetrics(row);
+      renderTab();
+    }
+
+    function table(rows, columns) {
+      if (!rows || !rows.length) return '<div class="card"><p>No data available.</p></div>';
+      return `<div class="table-wrap"><table><thead><tr>${columns.map(c => `<th>${c.label}</th>`).join('')}</tr></thead><tbody>${
+        rows.map(r => `<tr>${columns.map(c => `<td>${c.render ? c.render(r[c.key], r) : (r[c.key] ?? '')}</td>`).join('')}</tr>`).join('')
+      }</tbody></table></div>`;
+    }
+
+    function renderOverview(row) {
+      const isArgentina = row.country === 'Argentina' && String(currentMeta.hs) === '283691' && Number(currentMeta.year) === 2024;
+      const reasons = Array.isArray(row.reasons) ? row.reasons : [];
+      return `
+        <div class="grid2 fade">
+          <div class="card">
+            <h3>Signal summary</h3>
+            <p>${row.country} reports <strong>${fmtKg(row.reported_exports_kg)}</strong> exports while partner countries report <strong>${fmtKg(row.mirror_imports_kg)}</strong> mirror imports. The unresolved gap is <strong>${fmtKg(row.gap_kg)}</strong>.</p>
+            <div class="pills">${reasons.map(r => `<span class="pill">${r}</span>`).join('')}</div>
+          </div>
+          <div class="card">
+            <h3>${isArgentina ? 'Argentina investigation focus' : 'What to investigate next'}</h3>
+            <p>${isArgentina
+              ? 'For Argentina, we test the trade signal against field evidence: satellite footprint, sodium carbonate inputs, public production, truck movement potential, LinkedIn hiring, and origin consistency.'
+              : 'A high mirror gap is not proof of fraud. It is a lead that should be checked against production, logistics, routing, hiring, and public disclosures.'}</p>
+          </div>
+        </div>
+        ${isArgentina ? renderArgentinaModules(row) : ''}
+      `;
+    }
+
+    function renderArgentinaModules(row) {
+      const prod = 25400000;
+      const expShare = prod / Math.max(row.reported_exports_kg, 1) * 100;
+      const mirShare = prod / Math.max(row.mirror_imports_kg, 1) * 100;
+      const sodium = sodiumSignal ? `
+        <div class="panel" style="margin-top:18px;">
+          <div class="panel-header"><div><h2 class="section-title">Upstream input signal</h2><p class="section-subtitle">Argentina imported ${fmtKg(sodiumSignal.total_kg)} of sodium carbonate in 2024. This supports industrial plausibility, but does not eliminate the mirror gap.</p></div></div>
+          <div class="metric-grid">
+            <div class="metric"><span>Total sodium imports</span><strong>${shortKg(sodiumSignal.total_kg)}</strong><small>HS 283620 imports into Argentina.</small></div>
+            <div class="metric"><span>Peak month</span><strong>Month ${sodiumSignal.peak_month}</strong><small>Highest monthly import point.</small></div>
+            <div class="metric"><span>Peak volume</span><strong>${shortKg(sodiumSignal.peak_month_kg)}</strong><small>Volume in the peak month.</small></div>
+            <div class="metric"><span>Status</span><strong>Supportive</strong><small>Industrial growth appears plausible.</small></div>
+          </div>
+        </div>` : '';
+      return `
+        <div class="panel" style="margin-top:18px;">
+          <div class="panel-header"><div><h2 class="section-title">Quarterly mirror-trade timeline</h2><p class="section-subtitle">Argentina's reported lithium carbonate exports versus mirror imports reported by the rest of the world in 2024.</p></div></div>
+          <div class="grid13" style="padding:28px;grid-template-columns:1fr;">
+            <div class="image-frame"><div class="image-label">Argentina 2024 | reported exports vs mirror imports</div><img src="argentina_mirror_trade_quarterly_2024.png" alt="Argentina quarterly mirror trade chart"></div>
+          </div>
+        </div>
+        <div class="panel" style="margin-top:18px;">
+          <div class="panel-header"><div><h2 class="section-title">Ground truth layer</h2><p class="section-subtitle">From trade anomaly to asset-level evidence at Cauchari-Olaroz.</p></div><div class="risk-badge" style="background:linear-gradient(135deg,#1e9b87,#0b4d48)">PARTIAL MATCH</div></div>
+          <div class="grid13" style="padding:28px;">
+            <div class="image-frame"><div class="image-label">NASA satellite view | Jujuy, Argentina</div><img src="cauchari_olaroz_nasa_2024.jpg" alt="Cauchari-Olaroz satellite"></div>
+            <div class="card">
+              <h3>Cauchari-Olaroz | Minera Exar</h3>
+              <p>Public operator data reports approximately <strong>${fmtKg(prod)}</strong> of lithium carbonate production in 2024. That is <strong>${fmtPct(expShare)}</strong> of Argentina's reported exports and <strong>${fmtPct(mirShare)}</strong> of mirror imports.</p>
+              <div class="pills"><span class="pill">Satellite footprint visible</span><span class="pill">Production published</span><span class="pill">Partial match</span><span class="pill">Gap unresolved</span></div>
+              <p>The asset makes industrial growth plausible, but one site does not fully reconcile the trade gap. Investigation continues across other producers, routes, and origins.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel" style="margin-top:18px;">
+          <div class="panel-header"><div><h2 class="section-title">Satellite footprint estimation</h2><p class="section-subtitle">Explainable no-ML method: compare satellite windows, detect visible pond-like surfaces, and calculate estimated footprint area.</p></div></div>
+          <div class="grid2" style="padding:28px;">
+            <div class="image-frame"><div class="image-label">Late 2023 / 2024 timelapse frame</div><img src="cauchari_late_2024.png" onerror="this.onerror=null;this.src='cauchari_olaroz_nasa_2024.jpg';" alt="Satellite frame"></div>
+            <div class="card">
+              <h3>How the algorithm works</h3>
+              <p>Google Earth Engine loads Sentinel-2 imagery, filters clouds, applies transparent spectral rules, and converts detected pixels into km2. It estimates visible footprint, not exact production.</p>
+              <div class="pills"><span class="pill">Sentinel-2</span><span class="pill">NDVI / NDWI</span><span class="pill">pixel area</span><span class="pill">exportable CSV</span></div>
+              <div class="timeline">
+                <div class="timeline-item"><div class="timeline-dot"></div><span>Late 2023</span><strong>Satellite baseline</strong><p>Visible evaporation ponds establish the pre-2024 industrial footprint.</p></div>
+                <div class="timeline-item"><div class="timeline-dot"></div><span>2024</span><strong>Production ramp-up</strong><p>Cauchari-Olaroz reports about ${fmtKg(prod)} of lithium carbonate production.</p></div>
+                <div class="timeline-item"><div class="timeline-dot"></div><span>2024 trade</span><strong>Gap remains unresolved</strong><p>Argentina reports ${shortKg(row.reported_exports_kg)} exports while mirror imports reach ${shortKg(row.mirror_imports_kg)}.</p></div>
+                <div class="timeline-item"><div class="timeline-dot"></div><span>Next layer</span><strong>Correlation check</strong><p>Compare satellite footprint, production, sodium inputs, trucking, and hiring against trade growth.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        ${sodium}
+      `;
+    }
+
+    function renderPartners(row) {
+      return `<div class="grid2 fade">
+        <div>${table(row.top_export_partners || [], [{key:'country',label:'Declared export partner'}, {key:'value_usd',label:'Trade value',render:fmtUsd}])}</div>
+        <div>${table(row.top_mirror_importers || [], [{key:'country',label:'Mirror importer'}, {key:'value_usd',label:'Trade value',render:fmtUsd}])}</div>
+      </div>`;
+    }
+
+    function renderEvidence(row) {
+      return `<div class="grid2 fade">
+        <div class="card"><h3>Official source pages</h3><p>Open the original public pages or local Comtrade source behind this signal.</p><div class="pills"><a class="btn primary" href="${row.export_page}" target="_blank">Exporter page</a><a class="btn secondary" href="${row.mirror_page}" target="_blank" style="color:#07111f;border-color:var(--line)">Mirror page</a></div></div>
+        <div class="card"><h3>Interpretation policy</h3><p>OriginTrace does not accuse countries or firms. It prioritizes cases where the trade story deserves deeper verification.</p></div>
+      </div>`;
+    }
+
+    function renderRanking() {
+      const rows = records.slice(0, 80);
+      return table(rows, [
+        {key:'country',label:'Country'},
+        {key:'risk',label:'Risk',render:(v)=>`<span class="${riskClass(v)}">${v}</span>`},
+        {key:'gap_pct',label:'Gap %',render:fmtPct},
+        {key:'reported_exports_kg',label:'Reported exports',render:shortKg},
+        {key:'mirror_imports_kg',label:'Mirror imports',render:shortKg},
+        {key:'gap_kg',label:'Gap',render:shortKg},
+      ]);
+    }
+
+    function renderTab() {
+      const body = document.getElementById('tabBody');
+      if (!selectedCountry) return;
+      if (activeTab === 'overview') body.innerHTML = renderOverview(selectedCountry);
+      if (activeTab === 'partners') body.innerHTML = renderPartners(selectedCountry);
+      if (activeTab === 'evidence') body.innerHTML = renderEvidence(selectedCountry);
+      if (activeTab === 'ranking') body.innerHTML = renderRanking();
+    }
+
+    document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', () => {
+      activeTab = btn.dataset.tab;
+      document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderTab();
+    }));
+    document.getElementById('loadBtn').addEventListener('click', loadDataset);
+    document.getElementById('buildBtn').addEventListener('click', buildDataset);
+    hsSelect.addEventListener('change', () => {
+      refreshYearOptions();
+      loadDataset();
+    });
+    yearSelect.addEventListener('change', loadDataset);
+    countrySelect.addEventListener('change', () => {
+      countrySearch.value = countrySelect.value;
+      selectCountry(countrySelect.value);
+    });
+    countrySearch.addEventListener('input', () => selectCountry(countrySearch.value));
+
+    boot().catch(err => setStatus(err.message));
+  </script>
+</body>
+</html>
+
