@@ -1,6 +1,6 @@
 # OriginTrace: Open-Source Supply Chain Risk Intelligence
 
-OriginTrace is a lightweight investigation platform for critical-material supply chains. It uses open-source trade data to detect suspicious inconsistencies between what a country reports exporting and what the rest of the world reports importing from that same country.
+OriginTrace is an investigation platform for critical-material supply chains. It uses open-source trade data to detect suspicious inconsistencies between what a country reports exporting and what the rest of the world reports importing from that same country.
 
 The goal is not to claim fraud automatically. The goal is to turn fragmented public data into clear, prioritized investigation leads.
 
